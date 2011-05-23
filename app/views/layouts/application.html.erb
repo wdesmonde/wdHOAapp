@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>WdHOAapp</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title>WWCA Requests | <%= @title %></title>
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
+    <div>
+    <table bgcolor="red">
+      <tr><td></td></tr>
+      <tr><td></td><font color="white">Logout Link will go here.
+          </font></tr>
+    </table>
+    </div>
+    <%= yield %>
+  <body>
 </html>
