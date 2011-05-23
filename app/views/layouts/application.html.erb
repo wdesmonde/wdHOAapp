@@ -5,13 +5,25 @@
     <%= csrf_meta_tag %>
   </head>
   <body>
-    <div>
-    <table bgcolor="red">
-      <tr><td></td></tr>
-      <tr><td></td><font color="white">Logout Link will go here.
-          </font></tr>
+    <div id="topbanner">
+    <table width="500" bgcolor="red">
+      <tr><td>The logo will go here....
+         and the background color of this table will
+         match the color of the logo.</td></tr>
+      <tr><td align="right"><font color="white">Logout Link will go here.
+          </font></td></tr>
     </table>
     </div>
     <%= yield %>
+    <div id="bottombanner">
+    <table width="500" bgcolor="red">
+      <tr><td align="center"><font color="white">Copyright 2011
+      <br>
+      <a href="./home">Home</a>
+      <a href="./help">Help</a>
+      <a href="./about">About</a>
+          </font></td></tr>
+    </table>
+    </div>
   <body>
 </html>
