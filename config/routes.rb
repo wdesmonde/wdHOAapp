@@ -1,9 +1,10 @@
 WdHOAapp::Application.routes.draw do
-  get "pages/home"
 
-  get "pages/help"
+  match '/help',  :to => 'pages#help'
+  match '/about',  :to => 'pages#about'
 
-  get "pages/about"
+  root :to => 'pages#home'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
