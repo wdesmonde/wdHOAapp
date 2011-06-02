@@ -1,5 +1,9 @@
 WdHOAapp::Application.routes.draw do
 
+  get "users/new"
+
+  match '/signup', :to => 'users#new'
+  match '/login', :to => 'users#login'
   match '/help',  :to => 'pages#help'
   match '/about',  :to => 'pages#about'
 
