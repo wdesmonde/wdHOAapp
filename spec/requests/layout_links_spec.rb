@@ -39,5 +39,11 @@ describe "LayoutLinks" do
     response.should have_selector('title', :content => "Login")
     click_link "New User"
     response.should have_selector('title', :content => "New User")
+    
+    #link to external site.  Test fails.  
+    # click_link "Stowe Design"
+    #response.should have_selector('title', 
+    #  :content => "Stowe Design")
+      #:content => "Stowe Design - News - Articles")
   end
 end
