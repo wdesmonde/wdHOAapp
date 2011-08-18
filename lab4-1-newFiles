@@ -1,0 +1,1108 @@
+2,24c2,28
+< total 84
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 .
+< drwxr-xr-x  9 wendy wendy 4096 2011-05-21 12:38 ..
+< drwxr-xr-x  7 wendy wendy 4096 2011-05-21 12:38 app
+< drwxr-xr-x  5 wendy wendy 4096 2011-06-01 17:17 config
+< -rw-r--r--  1 wendy wendy  158 2011-05-21 12:38 config.ru
+< drwxr-xr-x  2 wendy wendy 4096 2011-05-21 18:19 db
+< drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 doc
+< -rw-r--r--  1 wendy wendy  951 2011-06-01 17:17 Gemfile
+< -rw-r--r--  1 wendy wendy 2241 2011-06-01 17:17 Gemfile.lock
+< drwxr-xr-x  8 wendy wendy 4096 2011-06-01 17:56 .git
+< -rw-r--r--  1 wendy wendy   36 2011-05-21 12:38 .gitignore
+< drwxr-xr-x  3 wendy wendy 4096 2011-05-21 12:38 lib
+< drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 log
+< drwxr-xr-x  5 wendy wendy 4096 2011-05-29 14:54 public
+< -rw-r--r--  1 wendy wendy  268 2011-05-21 12:38 Rakefile
+< -rw-r--r--  1 wendy wendy  246 2011-05-21 18:53 README.markdown
+< -rw-r--r--  1 wendy wendy   15 2011-05-21 18:53 .rspec
+< drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 script
+< drwxr-xr-x  4 wendy wendy 4096 2011-06-01 16:31 spec
+< -rw-r--r--  1 wendy wendy    0 2011-08-17 15:46 startch6files
+< drwxr-xr-x  6 wendy wendy 4096 2011-05-21 12:38 tmp
+< drwxr-xr-x  3 wendy wendy 4096 2011-05-21 12:38 vendor
+---
+> total 268
+> drwxr-xr-x 14 wendy wendy   4096 2011-08-18 12:17 .
+> drwxr-xr-x  9 wendy wendy   4096 2011-05-21 12:38 ..
+> drwxr-xr-x  7 wendy wendy   4096 2011-05-21 12:38 app
+> drwxr-xr-x  5 wendy wendy   4096 2011-08-17 15:53 config
+> -rw-r--r--  1 wendy wendy    158 2011-05-21 12:38 config.ru
+> drwxr-xr-x  3 wendy wendy   4096 2011-08-18 12:12 db
+> drwxr-xr-x  2 wendy wendy   4096 2011-05-21 12:38 doc
+> -rw-r--r--  1 wendy wendy    977 2011-08-18 11:32 Gemfile
+> -rw-r--r--  1 wendy wendy   2283 2011-08-18 11:33 Gemfile.lock
+> drwxr-xr-x  8 wendy wendy   4096 2011-08-18 08:11 .git
+> -rw-r--r--  1 wendy wendy     36 2011-05-21 12:38 .gitignore
+> -rw-r--r--  1 wendy wendy      0 2011-08-18 12:17 lab4-1-fileList
+> -rw-r--r--  1 wendy wendy   7541 2011-08-18 12:15 lab4-1.txt
+> -rw-r--r--  1 wendy wendy 102534 2011-08-18 12:14 lab4_1_userInDB.png
+> drwxr-xr-x  3 wendy wendy   4096 2011-05-21 12:38 lib
+> drwxr-xr-x  2 wendy wendy   4096 2011-05-21 12:38 log
+> drwxr-xr-x  5 wendy wendy   4096 2011-05-29 14:54 public
+> -rw-r--r--  1 wendy wendy    268 2011-05-21 12:38 Rakefile
+> -rw-r--r--  1 wendy wendy    246 2011-05-21 18:53 README.markdown
+> -rw-r--r--  1 wendy wendy     15 2011-05-21 18:53 .rspec
+> drwxr-xr-x  2 wendy wendy   4096 2011-05-21 12:38 script
+> drwxr-xr-x  5 wendy wendy   4096 2011-08-18 11:20 spec
+> -rw-r--r--  1 wendy wendy  69176 2011-08-17 16:29 startch6files
+> drwxr-xr-x  6 wendy wendy   4096 2011-05-21 12:38 tmp
+> drwxr-xr-x  3 wendy wendy   4096 2011-05-21 12:38 vendor
+> -rw-r--r--  1 wendy wendy   2307 2011-08-17 16:50 webrat.log
+29c33
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+31c35
+< drwxr-xr-x  2 wendy wendy 4096 2011-06-01 17:17 helpers
+---
+> drwxr-xr-x  2 wendy wendy 4096 2011-08-17 16:29 helpers
+33c37
+< drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 models
+---
+> drwxr-xr-x  2 wendy wendy 4096 2011-08-18 11:35 models
+46c50
+< drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 .
+---
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:29 .
+48c52
+< -rw-r--r-- 1 wendy wendy  209 2011-05-29 14:54 application_helper.rb
+---
+> -rw-r--r-- 1 wendy wendy  338 2011-08-17 16:29 application_helper.rb
+58,59c62,63
+< total 8
+< drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+---
+> total 12
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-18 11:35 .
+60a65
+> -rw-r--r-- 1 wendy wendy  274 2011-08-18 11:35 user.rb
+66c71
+< drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 layouts
+---
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:29 layouts
+72c77
+< drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 .
+---
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:29 .
+76c81
+< -rw-r--r-- 1 wendy wendy  341 2011-06-01 17:17 _header.html.erb
+---
+> -rw-r--r-- 1 wendy wendy  248 2011-08-17 16:29 _header.html.erb
+96,97c101,102
+< drwxr-xr-x  5 wendy wendy 4096 2011-06-01 17:17 .
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> drwxr-xr-x  5 wendy wendy 4096 2011-08-17 15:53 .
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+110c115
+< drwxr-xr-x 5 wendy wendy 4096 2011-06-01 17:17 ..
+---
+> drwxr-xr-x 5 wendy wendy 4096 2011-08-17 15:53 ..
+118c123
+< drwxr-xr-x 5 wendy wendy 4096 2011-06-01 17:17 ..
+---
+> drwxr-xr-x 5 wendy wendy 4096 2011-08-17 15:53 ..
+128c133
+< drwxr-xr-x 5 wendy wendy 4096 2011-06-01 17:17 ..
+---
+> drwxr-xr-x 5 wendy wendy 4096 2011-08-17 15:53 ..
+132,135c137,142
+< total 12
+< drwxr-xr-x  2 wendy wendy 4096 2011-05-21 18:19 .
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+< -rw-r--r--  1 wendy wendy    0 2011-05-21 18:19 development.sqlite3
+---
+> total 28
+> drwxr-xr-x  3 wendy wendy 4096 2011-08-18 12:12 .
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+> -rw-r--r--  1 wendy wendy 5120 2011-08-18 12:12 development.sqlite3
+> drwxr-xr-x  2 wendy wendy 4096 2011-08-18 11:20 migrate
+> -rw-r--r--  1 wendy wendy  935 2011-08-18 11:23 schema.rb
+138a146,151
+> ./db/migrate:
+> total 12
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-18 11:20 .
+> drwxr-xr-x 3 wendy wendy 4096 2011-08-18 12:12 ..
+> -rw-r--r-- 1 wendy wendy  215 2011-08-18 11:20 20110818182000_create_users.rb
+> 
+142c155
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+147,148c160,161
+< drwxr-xr-x   8 wendy wendy 4096 2011-06-01 17:56 .
+< drwxr-xr-x  14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> drwxr-xr-x   8 wendy wendy 4096 2011-08-18 08:11 .
+> drwxr-xr-x  14 wendy wendy 4096 2011-08-18 12:17 ..
+150c163
+< -rw-r--r--   1 wendy wendy  162 2011-06-01 17:16 COMMIT_EDITMSG
+---
+> -rw-r--r--   1 wendy wendy   94 2011-08-18 08:11 COMMIT_EDITMSG
+153c166
+< -rw-r--r--   1 wendy wendy   23 2011-06-01 17:16 HEAD
+---
+> -rw-r--r--   1 wendy wendy   25 2011-08-17 16:32 HEAD
+155c168
+< -rw-r--r--   1 wendy wendy 9136 2011-06-01 17:56 index
+---
+> -rw-r--r--   1 wendy wendy 9400 2011-08-18 08:11 index
+158,159c171,172
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 objects
+< -rw-r--r--   1 wendy wendy   41 2011-06-01 17:17 ORIG_HEAD
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 objects
+> -rw-r--r--   1 wendy wendy   41 2011-08-17 16:29 ORIG_HEAD
+165c178
+< drwxr-xr-x 8 wendy wendy 4096 2011-06-01 17:56 ..
+---
+> drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+170c183
+< drwxr-xr-x 8 wendy wendy 4096 2011-06-01 17:56 ..
+---
+> drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+185c198
+< drwxr-xr-x 8 wendy wendy 4096 2011-06-01 17:56 ..
+---
+> drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+191,192c204,205
+< drwxr-xr-x 8 wendy wendy 4096 2011-06-01 17:56 ..
+< -rw-r--r-- 1 wendy wendy 4742 2011-06-01 17:17 HEAD
+---
+> drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+> -rw-r--r-- 1 wendy wendy 5832 2011-08-18 08:11 HEAD
+199c212
+< drwxr-xr-x 2 wendy wendy 4096 2011-06-01 15:12 heads
+---
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:32 heads
+203,204c216,217
+< total 28
+< drwxr-xr-x 2 wendy wendy 4096 2011-06-01 15:12 .
+---
+> total 36
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:32 .
+206a220
+> -rw-r--r-- 1 wendy wendy  337 2011-08-17 16:28 finLayouts
+209c223,224
+< -rw-r--r-- 1 wendy wendy  968 2011-06-01 17:17 master
+---
+> -rw-r--r-- 1 wendy wendy 1129 2011-08-17 16:29 master
+> -rw-r--r-- 1 wendy wendy  387 2011-08-18 08:11 modUsers
+232,234c247,249
+< total 628
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 .
+< drwxr-xr-x   8 wendy wendy 4096 2011-06-01 17:56 ..
+---
+> total 656
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 .
+> drwxr-xr-x   8 wendy wendy 4096 2011-08-18 08:11 ..
+236c251,252
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 03
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 01
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 03
+241c257
+< drwxr-xr-x   2 wendy wendy 4096 2011-06-01 15:12 08
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 08
+256a273
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 25
+265c282,283
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 31
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 31
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 33
+268c286
+< drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 36
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 36
+274c292
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 46
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 46
+279c297
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 4e
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 4e
+284c302
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 58
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 58
+290c308
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 5e
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 5e
+293a312
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 64
+296,297c315,316
+< drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 6a
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 6b
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 6a
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 6b
+311a331
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 7f
+332a353
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 9d
+336c357
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:18 a8
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 a8
+348c369
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 b9
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 b9
+362c383
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 d8
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 d8
+367c388
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:38 df
+---
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 df
+381a403
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 15:55 f7
+394c416
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+396a419,424
+> ./.git/objects/01:
+> total 12
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  565 2011-08-17 16:28 06ccf803a9b3687bbafb7ac15c98195b6ddd54
+> 
+398,400c426,429
+< total 16
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 20
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  107 2011-08-17 16:28 693d51312589fc04b08fe1c6b5b6141b9cd3fe
+407c436
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+413c442
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+419c448
+< drwxr-xr-x 157 wendy wendy  4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+425c454
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+431,433c460,462
+< total 16
+< drwxr-xr-x   2 wendy wendy 4096 2011-06-01 15:12 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 20
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+435a465
+> -r--r--r--   1 wendy wendy  221 2011-08-17 16:28 8c0a95bf080de07a63524b1524294b3c8abdeb
+440c470
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+446c476
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+452c482
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+458c488
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+464c494
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+471c501
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+477c507
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+488c518
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+494c524
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+500c530
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+506c536
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+516c546
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+523c553
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+529c559
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+536c566
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+538a569,574
+> ./.git/objects/25:
+> total 12
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  687 2011-08-17 16:28 d4cfcd04a80e6e72cf2da1ebe37e738014cd5d
+> 
+542c578
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+549c585
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+556c592
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+562c598
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+569c605
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+576c612
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+582c618
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+588c624
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+592,594c628,630
+< total 20
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 24
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+596a633
+> -r--r--r--   1 wendy wendy  399 2011-08-18 08:10 8fb71ac7825cf38d083a5ef1c586fedbc2af7e
+598a636,641
+> ./.git/objects/33:
+> total 12
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  566 2011-08-18 08:11 cbf71e1419b311d5748b7dc6b5223d5f781ac5
+> 
+602c645
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+610c653
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+614,616c657,660
+< total 12
+< drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 16
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  208 2011-08-17 16:28 1ef253d6f2bb3e80c4c84ddfc2836462821d1d
+622c666
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+628c672
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+635c679
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+641c685
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+648c692
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+653,655c697,700
+< total 12
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 16
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  212 2011-08-18 08:11 4480a1df50d376195f9c5be661697f4eb4334d
+661c706
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+668c713
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+674c719
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+680c725
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+684,686c729,732
+< total 12
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 16
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  324 2011-08-17 16:28 30263189a2fcd0647d7b64afb9f5bb1ecaa02c
+692c738
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+700c746
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+709c755
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+715c761
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+720,722c766,768
+< total 16
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 20
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+724a771
+> -r--r--r--   1 wendy wendy   97 2011-08-18 08:11 6fb489264e85f0e3186961421c967af9b3dc81
+729c776
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+736c783
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+742c789
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+748c795
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+754c801
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+759,761c806,808
+< total 12
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 16
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+762a810
+> -r--r--r--   1 wendy wendy   97 2011-08-17 16:28 cd5dbd932eb7e0e73a684c1b4613127bb69db4
+767c815
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+773c821
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+780c828
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+783a832,837
+> ./.git/objects/64:
+> total 12
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  125 2011-08-17 16:28 d701ae43187678b2bd2594d94f1d2e38a3d4d3
+> 
+787c841
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+793c847
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+798,800c852,854
+< total 16
+< drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 20
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+801a856
+> -r--r--r--   1 wendy wendy  184 2011-08-17 16:28 0f3c8a89ed8c0fc7787857b6cea796571a6496
+805,807c860,863
+< total 12
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 16
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  129 2011-08-17 16:28 5de58b9905f4a6a7622c05716700ff8247a82d
+813c869
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+819c875
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+826c882
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+832c888
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+840c896
+< drwxr-xr-x 157 wendy wendy  4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+847c903
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+853c909
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+859c915
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+865c921
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+871c927
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+878c934
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+884c940
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+890c946
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+896c952
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+898a955,960
+> ./.git/objects/7f:
+> total 12
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  146 2011-08-17 16:28 f062f4f4f955ceedd0acbd24ce5e37cfceceb8
+> 
+902c964
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+908c970
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+914c976
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+921c983
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+928c990
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+935c997
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+941c1003
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+947c1009
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+953c1015
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+959c1021
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+967c1029
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+973c1035
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+979c1041
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+986c1048
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+992c1054
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+998c1060
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1005c1067
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1011c1073
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1017c1079
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1024c1086
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1030c1092
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1034a1097,1102
+> ./.git/objects/9d:
+> total 12
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  164 2011-08-17 16:28 b211ba26c2586fa8c78b56186e5c9a3fd57082
+> 
+1038c1106
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1046c1114
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1054c1122
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1058,1060c1126,1128
+< total 12
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:18 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 16
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1061a1130
+> -r--r--r--   1 wendy wendy  766 2011-08-18 08:10 80077735966b1e08aef84ea596a534830c79f0
+1066c1135
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1073c1142
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1079c1148
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1086c1155
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1094c1163
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1101c1170
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1107c1176
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1113c1182
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1122c1191
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1130c1199
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1136c1205
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1142,1144c1211,1213
+< total 16
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 20
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1145a1215
+> -r--r--r--   1 wendy wendy  112 2011-08-17 16:28 c35512c5269e12b488e3dfebdcadc92ab075a0
+1151c1221
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1157c1227
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1163c1233
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1170c1240
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1176c1246
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1182c1252
+< drwxr-xr-x 157 wendy wendy  4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+1190c1260
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1196c1266
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1202c1272
+< drwxr-xr-x 157 wendy wendy  4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+1209c1279
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1216c1286
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1222c1292
+< drwxr-xr-x 157 wendy wendy   4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy   4096 2011-08-18 08:11 ..
+1231c1301
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1235,1237c1305,1307
+< total 16
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 20
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1239a1310
+> -r--r--r--   1 wendy wendy  129 2011-08-18 08:11 67f936e700759a15094340d56fcc63cb235ce4
+1244c1315
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1250c1321
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1259c1330
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1265c1336
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1270,1272c1341,1344
+< total 12
+< drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:38 .
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> total 16
+> drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 .
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy  272 2011-08-18 08:10 00b0c135e8e835fe75e648c15542c4680242b2
+1278c1350
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1285c1357
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1291c1363
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1297c1369
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1305c1377
+< drwxr-xr-x 157 wendy wendy  4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+1311c1383
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1317c1389
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1325c1397
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1331c1403
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1337c1409
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1343c1415
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1349c1421
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1355c1427
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1361c1433
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1363a1436,1441
+> ./.git/objects/f7:
+> total 24
+> drwxr-xr-x   2 wendy wendy  4096 2011-08-17 15:55 .
+> drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+> -r--r--r--   1 wendy wendy 14957 2011-08-17 15:55 6cb736c10c2ed674e947525abb061b7d9e21df
+> 
+1367c1445
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1373c1451
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1379c1457
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1385c1463
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1391c1469
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1400c1478
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1407c1485
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1412c1490
+< drwxr-xr-x 157 wendy wendy 4096 2011-06-01 17:16 ..
+---
+> drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+1417,1418c1495,1496
+< drwxr-xr-x 8 wendy wendy 4096 2011-06-01 17:56 ..
+< drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 heads
+---
+> drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-18 08:11 heads
+1423,1424c1501,1502
+< total 28
+< drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 .
+---
+> total 36
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-18 08:11 .
+1426a1505
+> -rw-r--r-- 1 wendy wendy   41 2011-08-17 16:28 finLayouts
+1429c1508,1509
+< -rw-r--r-- 1 wendy wendy   41 2011-06-01 17:17 master
+---
+> -rw-r--r-- 1 wendy wendy   41 2011-08-17 16:29 master
+> -rw-r--r-- 1 wendy wendy   41 2011-08-18 08:11 modUsers
+1459c1539
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+1469,1475c1549,1555
+< total 112
+< drwxr-xr-x  2 wendy wendy  4096 2011-05-21 12:38 .
+< drwxr-xr-x 14 wendy wendy  4096 2011-08-17 15:45 ..
+< -rw-rw-rw-  1 wendy wendy 25815 2011-06-01 17:04 development.log
+< -rw-rw-rw-  1 wendy wendy     0 2011-05-21 12:38 production.log
+< -rw-rw-rw-  1 wendy wendy     0 2011-05-21 12:38 server.log
+< -rw-rw-rw-  1 wendy wendy 67798 2011-06-01 17:34 test.log
+---
+> total 148
+> drwxr-xr-x  2 wendy wendy   4096 2011-05-21 12:38 .
+> drwxr-xr-x 14 wendy wendy   4096 2011-08-18 12:17 ..
+> -rw-rw-rw-  1 wendy wendy  31945 2011-08-18 12:12 development.log
+> -rw-rw-rw-  1 wendy wendy      0 2011-05-21 12:38 production.log
+> -rw-rw-rw-  1 wendy wendy      0 2011-05-21 12:38 server.log
+> -rw-rw-rw-  1 wendy wendy 100839 2011-08-17 16:50 test.log
+1480c1560
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+1602c1682
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+1606,1608c1686,1688
+< total 20
+< drwxr-xr-x  4 wendy wendy 4096 2011-06-01 16:31 .
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> total 24
+> drwxr-xr-x  5 wendy wendy 4096 2011-08-18 11:20 .
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+1610c1690,1691
+< drwxr-xr-x  2 wendy wendy 4096 2011-06-01 17:17 requests
+---
+> drwxr-xr-x  2 wendy wendy 4096 2011-08-18 11:20 models
+> drwxr-xr-x  2 wendy wendy 4096 2011-08-18 12:16 requests
+1616c1697
+< drwxr-xr-x 4 wendy wendy 4096 2011-06-01 16:31 ..
+---
+> drwxr-xr-x 5 wendy wendy 4096 2011-08-18 11:20 ..
+1619a1701,1706
+> ./spec/models:
+> total 12
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-18 11:20 .
+> drwxr-xr-x 5 wendy wendy 4096 2011-08-18 11:20 ..
+> -rw-r--r-- 1 wendy wendy  307 2011-08-18 11:33 user_spec.rb
+> 
+1622,1624c1709,1711
+< drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 .
+< drwxr-xr-x 4 wendy wendy 4096 2011-06-01 16:31 ..
+< -rw-r--r-- 1 wendy wendy  721 2011-06-01 17:17 layout_links_spec.rb
+---
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-18 12:16 .
+> drwxr-xr-x 5 wendy wendy 4096 2011-08-18 11:20 ..
+> -rw-r--r-- 1 wendy wendy 1449 2011-08-18 12:16 layout_links_spec.rb
+1629c1716
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+1631c1718
+< drwxr-xr-x  2 wendy wendy 4096 2011-06-01 17:57 pids
+---
+> drwxr-xr-x  2 wendy wendy 4096 2011-08-18 08:09 pids
+1642c1729
+< drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:57 .
+---
+> drwxr-xr-x 2 wendy wendy 4096 2011-08-18 08:09 .
+1658c1745
+< drwxr-xr-x 14 wendy wendy 4096 2011-08-17 15:45 ..
+---
+> drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..

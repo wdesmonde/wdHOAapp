@@ -1,0 +1,1752 @@
+.:
+total 268
+drwxr-xr-x 14 wendy wendy   4096 2011-08-18 12:17 .
+drwxr-xr-x  9 wendy wendy   4096 2011-05-21 12:38 ..
+drwxr-xr-x  7 wendy wendy   4096 2011-05-21 12:38 app
+drwxr-xr-x  5 wendy wendy   4096 2011-08-17 15:53 config
+-rw-r--r--  1 wendy wendy    158 2011-05-21 12:38 config.ru
+drwxr-xr-x  3 wendy wendy   4096 2011-08-18 12:12 db
+drwxr-xr-x  2 wendy wendy   4096 2011-05-21 12:38 doc
+-rw-r--r--  1 wendy wendy    977 2011-08-18 11:32 Gemfile
+-rw-r--r--  1 wendy wendy   2283 2011-08-18 11:33 Gemfile.lock
+drwxr-xr-x  8 wendy wendy   4096 2011-08-18 08:11 .git
+-rw-r--r--  1 wendy wendy     36 2011-05-21 12:38 .gitignore
+-rw-r--r--  1 wendy wendy      0 2011-08-18 12:17 lab4-1-fileList
+-rw-r--r--  1 wendy wendy   7541 2011-08-18 12:15 lab4-1.txt
+-rw-r--r--  1 wendy wendy 102534 2011-08-18 12:14 lab4_1_userInDB.png
+drwxr-xr-x  3 wendy wendy   4096 2011-05-21 12:38 lib
+drwxr-xr-x  2 wendy wendy   4096 2011-05-21 12:38 log
+drwxr-xr-x  5 wendy wendy   4096 2011-05-29 14:54 public
+-rw-r--r--  1 wendy wendy    268 2011-05-21 12:38 Rakefile
+-rw-r--r--  1 wendy wendy    246 2011-05-21 18:53 README.markdown
+-rw-r--r--  1 wendy wendy     15 2011-05-21 18:53 .rspec
+drwxr-xr-x  2 wendy wendy   4096 2011-05-21 12:38 script
+drwxr-xr-x  5 wendy wendy   4096 2011-08-18 11:20 spec
+-rw-r--r--  1 wendy wendy  69176 2011-08-17 16:29 startch6files
+drwxr-xr-x  6 wendy wendy   4096 2011-05-21 12:38 tmp
+drwxr-xr-x  3 wendy wendy   4096 2011-05-21 12:38 vendor
+-rw-r--r--  1 wendy wendy   2307 2011-08-17 16:50 webrat.log
+
+./app:
+total 28
+drwxr-xr-x  7 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+drwxr-xr-x  2 wendy wendy 4096 2011-06-01 17:17 controllers
+drwxr-xr-x  2 wendy wendy 4096 2011-08-17 16:29 helpers
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 mailers
+drwxr-xr-x  2 wendy wendy 4096 2011-08-18 11:35 models
+drwxr-xr-x  5 wendy wendy 4096 2011-06-01 17:17 views
+
+./app/controllers:
+total 20
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 .
+drwxr-xr-x 7 wendy wendy 4096 2011-05-21 12:38 ..
+-rw-r--r-- 1 wendy wendy   80 2011-05-21 12:38 application_controller.rb
+-rw-r--r-- 1 wendy wendy  165 2011-05-23 10:51 pages_controller.rb
+-rw-r--r-- 1 wendy wendy  131 2011-06-01 17:17 users_controller.rb
+
+./app/helpers:
+total 20
+drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:29 .
+drwxr-xr-x 7 wendy wendy 4096 2011-05-21 12:38 ..
+-rw-r--r-- 1 wendy wendy  338 2011-08-17 16:29 application_helper.rb
+-rw-r--r-- 1 wendy wendy   23 2011-05-21 18:53 pages_helper.rb
+-rw-r--r-- 1 wendy wendy   23 2011-06-01 17:17 users_helper.rb
+
+./app/mailers:
+total 8
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 7 wendy wendy 4096 2011-05-21 12:38 ..
+
+./app/models:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-08-18 11:35 .
+drwxr-xr-x 7 wendy wendy 4096 2011-05-21 12:38 ..
+-rw-r--r-- 1 wendy wendy  274 2011-08-18 11:35 user.rb
+
+./app/views:
+total 20
+drwxr-xr-x 5 wendy wendy 4096 2011-06-01 17:17 .
+drwxr-xr-x 7 wendy wendy 4096 2011-05-21 12:38 ..
+drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:29 layouts
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 pages
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 users
+
+./app/views/layouts:
+total 24
+drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:29 .
+drwxr-xr-x 5 wendy wendy 4096 2011-06-01 17:17 ..
+-rw-r--r-- 1 wendy wendy  343 2011-05-29 14:54 application.html.erb
+-rw-r--r-- 1 wendy wendy  436 2011-06-01 17:17 _footer.html.erb
+-rw-r--r-- 1 wendy wendy  248 2011-08-17 16:29 _header.html.erb
+-rw-r--r-- 1 wendy wendy  365 2011-05-29 14:54 _stylesheets.html.erb
+
+./app/views/pages:
+total 20
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 .
+drwxr-xr-x 5 wendy wendy 4096 2011-06-01 17:17 ..
+-rw-r--r-- 1 wendy wendy  568 2011-05-23 10:51 about.html.erb
+-rw-r--r-- 1 wendy wendy  121 2011-05-23 10:51 help.html.erb
+-rw-r--r-- 1 wendy wendy  384 2011-06-01 17:17 home.html.erb
+
+./app/views/users:
+total 16
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 .
+drwxr-xr-x 5 wendy wendy 4096 2011-06-01 17:17 ..
+-rw-r--r-- 1 wendy wendy  125 2011-06-01 17:17 login.html.erb
+-rw-r--r-- 1 wendy wendy   77 2011-06-01 17:17 new.html.erb
+
+./config:
+total 40
+drwxr-xr-x  5 wendy wendy 4096 2011-08-17 15:53 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+-rw-r--r--  1 wendy wendy 1926 2011-05-21 12:38 application.rb
+-rw-r--r--  1 wendy wendy  191 2011-05-21 12:38 boot.rb
+-rw-r--r--  1 wendy wendy  501 2011-05-21 12:38 database.yml
+-rw-r--r--  1 wendy wendy  152 2011-05-21 12:38 environment.rb
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 environments
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 initializers
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 locales
+-rw-r--r--  1 wendy wendy 1996 2011-06-01 17:17 routes.rb
+
+./config/environments:
+total 20
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 5 wendy wendy 4096 2011-08-17 15:53 ..
+-rw-r--r-- 1 wendy wendy  988 2011-05-21 12:38 development.rb
+-rw-r--r-- 1 wendy wendy 1757 2011-05-21 12:38 production.rb
+-rw-r--r-- 1 wendy wendy 1512 2011-05-21 12:38 test.rb
+
+./config/initializers:
+total 28
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 5 wendy wendy 4096 2011-08-17 15:53 ..
+-rw-r--r-- 1 wendy wendy  404 2011-05-21 12:38 backtrace_silencers.rb
+-rw-r--r-- 1 wendy wendy  376 2011-05-21 12:38 inflections.rb
+-rw-r--r-- 1 wendy wendy  205 2011-05-21 12:38 mime_types.rb
+-rw-r--r-- 1 wendy wendy  499 2011-05-21 12:38 secret_token.rb
+-rw-r--r-- 1 wendy wendy  419 2011-05-21 12:38 session_store.rb
+
+./config/locales:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 5 wendy wendy 4096 2011-08-17 15:53 ..
+-rw-r--r-- 1 wendy wendy  213 2011-05-21 12:38 en.yml
+
+./db:
+total 28
+drwxr-xr-x  3 wendy wendy 4096 2011-08-18 12:12 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+-rw-r--r--  1 wendy wendy 5120 2011-08-18 12:12 development.sqlite3
+drwxr-xr-x  2 wendy wendy 4096 2011-08-18 11:20 migrate
+-rw-r--r--  1 wendy wendy  935 2011-08-18 11:23 schema.rb
+-rw-r--r--  1 wendy wendy  353 2011-05-21 12:38 seeds.rb
+-rw-r--r--  1 wendy wendy    0 2011-05-21 14:32 test.sqlite3
+
+./db/migrate:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-08-18 11:20 .
+drwxr-xr-x 3 wendy wendy 4096 2011-08-18 12:12 ..
+-rw-r--r-- 1 wendy wendy  215 2011-08-18 11:20 20110818182000_create_users.rb
+
+./doc:
+total 12
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+-rw-r--r--  1 wendy wendy  211 2011-05-21 12:38 README_FOR_APP
+
+./.git:
+total 64
+drwxr-xr-x   8 wendy wendy 4096 2011-08-18 08:11 .
+drwxr-xr-x  14 wendy wendy 4096 2011-08-18 12:17 ..
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 branches
+-rw-r--r--   1 wendy wendy   94 2011-08-18 08:11 COMMIT_EDITMSG
+-rw-r--r--   1 wendy wendy  307 2011-05-21 13:33 config
+-rw-r--r--   1 wendy wendy   73 2011-05-21 13:18 description
+-rw-r--r--   1 wendy wendy   25 2011-08-17 16:32 HEAD
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 hooks
+-rw-r--r--   1 wendy wendy 9400 2011-08-18 08:11 index
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 info
+drwxr-xr-x   3 wendy wendy 4096 2011-05-21 13:18 logs
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 objects
+-rw-r--r--   1 wendy wendy   41 2011-08-17 16:29 ORIG_HEAD
+drwxr-xr-x   5 wendy wendy 4096 2011-05-21 13:23 refs
+
+./.git/branches:
+total 8
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+
+./.git/hooks:
+total 52
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+-rwxr-xr-x 1 wendy wendy  452 2011-05-21 13:18 applypatch-msg.sample
+-rwxr-xr-x 1 wendy wendy  894 2011-05-21 13:18 commit-msg.sample
+-rwxr-xr-x 1 wendy wendy  160 2011-05-21 13:18 post-commit.sample
+-rwxr-xr-x 1 wendy wendy  552 2011-05-21 13:18 post-receive.sample
+-rwxr-xr-x 1 wendy wendy  189 2011-05-21 13:18 post-update.sample
+-rwxr-xr-x 1 wendy wendy  398 2011-05-21 13:18 pre-applypatch.sample
+-rwxr-xr-x 1 wendy wendy 1576 2011-05-21 13:18 pre-commit.sample
+-rwxr-xr-x 1 wendy wendy 1219 2011-05-21 13:18 prepare-commit-msg.sample
+-rwxr-xr-x 1 wendy wendy 4942 2011-05-21 13:18 pre-rebase.sample
+-rwxr-xr-x 1 wendy wendy 3609 2011-05-21 13:18 update.sample
+
+./.git/info:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+-rw-r--r-- 1 wendy wendy  240 2011-05-21 13:18 exclude
+
+./.git/logs:
+total 20
+drwxr-xr-x 3 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+-rw-r--r-- 1 wendy wendy 5832 2011-08-18 08:11 HEAD
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:23 refs
+
+./.git/logs/refs:
+total 16
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:23 .
+drwxr-xr-x 3 wendy wendy 4096 2011-05-21 13:18 ..
+drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:32 heads
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:34 remotes
+
+./.git/logs/refs/heads:
+total 36
+drwxr-xr-x 2 wendy wendy 4096 2011-08-17 16:32 .
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:23 ..
+-rw-r--r-- 1 wendy wendy  526 2011-05-23 10:38 dyn1
+-rw-r--r-- 1 wendy wendy  337 2011-08-17 16:28 finLayouts
+-rw-r--r-- 1 wendy wendy 1537 2011-05-29 14:54 lab3-2
+-rw-r--r-- 1 wendy wendy  454 2011-06-01 17:16 lab5-3
+-rw-r--r-- 1 wendy wendy 1129 2011-08-17 16:29 master
+-rw-r--r-- 1 wendy wendy  387 2011-08-18 08:11 modUsers
+-rw-r--r-- 1 wendy wendy  521 2011-05-21 18:49 static-pages
+
+./.git/logs/refs/remotes:
+total 16
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:34 .
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:23 ..
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 13:34 heroku
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 13:23 origin
+
+./.git/logs/refs/remotes/heroku:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 13:34 .
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:34 ..
+-rw-r--r-- 1 wendy wendy  725 2011-06-01 17:19 master
+
+./.git/logs/refs/remotes/origin:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 13:23 .
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:34 ..
+-rw-r--r-- 1 wendy wendy  725 2011-06-01 17:17 master
+
+./.git/objects:
+total 656
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 .
+drwxr-xr-x   8 wendy wendy 4096 2011-08-18 08:11 ..
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 00
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 01
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 03
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 04
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:32 05
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 06
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:44 07
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 08
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 0d
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:16 0f
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:44 10
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 11
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 13
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 15
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:19 17
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 18
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 19
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 1c
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 1d
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:32 22
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 23
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 25
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 27
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:38 28
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 2a
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 2b
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 2c
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 2e
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 2f
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 30
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 31
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 33
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 34
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:19 35
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 36
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 38
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 3c
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:38 43
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 44
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:18 45
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 46
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 15:12 48
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 49
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 4a
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 4c
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 4e
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 4f
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 53
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 54
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 55
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 58
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 59
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 5a
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:32 5b
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 5c
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 5d
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 5e
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 5f
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 61
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 62
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 64
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 66
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:19 68
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 6a
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 6b
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:38 6c
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 6e
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:31 70
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 72
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 73
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 74
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 75
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 77
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 78
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 79
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 7b
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 7c
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 7d
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 7e
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 7f
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 80
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 81
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 82
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 83
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:19 84
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 85
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:17 88
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 89
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 8a
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 8d
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 8f
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 90
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:53 91
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 92
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:17 93
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 95
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 96
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 98
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 99
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 9a
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 9b
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 9d
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 9e
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 a6
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 a7
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 a8
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 a9
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 aa
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 ab
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:16 ad
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 ae
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:16 af
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 b1
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 b2
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 b5
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 b6
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 b8
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 b9
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 ba
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 bb
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 bd
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:18 c1
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 c7
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 c8
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 cb
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 ce
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 cf
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 d3
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 d4
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:16 d5
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 d6
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 d8
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 da
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 db
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 dc
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 de
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 df
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 e4
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 e6
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 e7
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 e8
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 eb
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:22 ec
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 ed
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 ee
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 ef
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 f0
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 f1
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:53 f3
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 f4
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 f5
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 15:55 f7
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 f8
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 fa
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 fc
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 fd
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 fe
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:44 ff
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 info
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 pack
+
+./.git/objects/00:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   65 2011-05-29 13:17 e0b83ce84816ba2c027c473ce230b8a70bc77b
+
+./.git/objects/01:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  565 2011-08-17 16:28 06ccf803a9b3687bbafb7ac15c98195b6ddd54
+
+./.git/objects/03:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  107 2011-08-17 16:28 693d51312589fc04b08fe1c6b5b6141b9cd3fe
+-r--r--r--   1 wendy wendy  265 2011-05-21 18:49 7805f53e3818ac08267bcbd084ecdd9b2ecf61
+-r--r--r--   1 wendy wendy  112 2011-05-21 13:18 ace68353f5890e8f2899c2dac2e40200c6ac47
+
+./.git/objects/04:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  457 2011-05-21 13:18 290f470ea3aa087c6bcea18e276a3845a02b71
+
+./.git/objects/05:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:32 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  124 2011-05-29 13:32 100f0ea19d9c486495512d120ea43369bed4ce
+
+./.git/objects/06:
+total 56
+drwxr-xr-x   2 wendy wendy  4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 46241 2011-05-21 13:18 249a6ae37d5fff9e1b629b5544d4d9e044549d
+
+./.git/objects/07:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  121 2011-05-29 11:44 0580223bf0dce79e0e9d801934cc558045f5d0
+-r--r--r--   1 wendy wendy  288 2011-05-29 14:44 d91d91d1dcf8f91c1a442b0b1c61eca9f7b2a9
+-r--r--r--   1 wendy wendy  814 2011-05-29 14:44 fb624abc58f9baabab0a903cc0e51327672c07
+
+./.git/objects/08:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  747 2011-06-01 15:12 4f3da7da67074beeb31756037ea9676deff2cf
+-r--r--r--   1 wendy wendy  164 2011-05-21 13:18 5187fa58b1631e955f5d514d895a7721466797
+-r--r--r--   1 wendy wendy  221 2011-08-17 16:28 8c0a95bf080de07a63524b1524294b3c8abdeb
+
+./.git/objects/0d:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  112 2011-05-29 14:54 13a592529b81bad39c43c615bae6541298eccb
+
+./.git/objects/0f:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  626 2011-05-29 13:16 4ecaef3011cad54eb718300d0b3b9867f40932
+
+./.git/objects/10:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  495 2011-05-29 14:44 0a3c4c502b4676b94f47e4d2efe8bd0a66472d
+
+./.git/objects/11:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 1030 2011-05-29 11:43 1a2eaf2e0cffaf747d1d44d2f72d5fe0a1a64a
+
+./.git/objects/12:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 1150 2011-05-29 11:43 7cf2553d8e7b507a9b5ed6107a1ed0793cf694
+-r--r--r--   1 wendy wendy  162 2011-05-21 13:18 ec97a459aacdcf1c9a2eceb23abd39494ba146
+
+./.git/objects/13:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  201 2011-05-29 14:18 24e86461125b3ffe2dd2e459e1d28ce78c0863
+
+./.git/objects/15:
+total 40
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  675 2011-05-29 11:43 14d51a3cf1b67e1c5b9ada36f1fd474e2d214a
+-r--r--r--   1 wendy wendy   99 2011-05-21 14:22 2c9de6f36b7ef04800df21a8746c6542942573
+-r--r--r--   1 wendy wendy   59 2011-05-21 13:18 4705c6aa1c8ead8c99c7915373e3c44012057f
+-r--r--r--   1 wendy wendy  112 2011-05-21 14:22 bacd04f7afc95716969174c73562d4614fd477
+-r--r--r--   1 wendy wendy 9217 2011-05-21 13:18 c6dbca68ba56e5862fc38d2fd74e29aa699744
+-r--r--r--   1 wendy wendy   49 2011-05-21 13:18 c7d7533e01d4857281fb3058b0a1f02d2e5c53
+
+./.git/objects/16:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  288 2011-06-01 17:16 7732b7a49518b766a0472c50d03b8fa4cedbb6
+
+./.git/objects/17:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:19 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  308 2011-05-29 14:19 d8d13b63f4660c5132e91e868de6315ef8a065
+
+./.git/objects/18:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  106 2011-06-01 17:16 d2fda1721f8932bce20cf48cadbc9e49375489
+
+./.git/objects/19:
+total 28
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  181 2011-05-23 10:18 2cf904a048f87b1e82fcb0734b54a8810f11af
+-r--r--r--   1 wendy wendy  238 2011-05-29 14:44 5fc7344005e02ad0d5e99b6e88c73c01f068e0
+-r--r--r--   1 wendy wendy   86 2011-05-21 14:22 ade503af21848ab9e7e3d7b81650afd2360235
+-r--r--r--   1 wendy wendy  183 2011-05-29 14:54 b2ae1f0cdccfb5d34a67441478502a6b16f383
+-r--r--r--   1 wendy wendy   86 2011-05-21 18:49 c0af113bd088f6fcbe499f3c543a55f72e9f5f
+
+./.git/objects/1c:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  308 2011-05-29 13:32 59150ad899d2351aa012df0d1c3b1e6dc9ae88
+-r--r--r--   1 wendy wendy  243 2011-06-01 17:16 ed6e9f8e394389ea6ea6a993757b00c2afd111
+
+./.git/objects/1d:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   47 2011-05-21 13:18 38a257fadeb8005db7a4bcc1f02c8d15c5ee71
+
+./.git/objects/22:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:32 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  496 2011-05-29 13:32 2ae7c8058946f42b9c7cf1a28d917bb96ec609
+-r--r--r--   1 wendy wendy  214 2011-05-23 10:17 2fe1de394e733d6af9e320c31dde93666ca7ac
+
+./.git/objects/23:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   39 2011-06-01 17:15 10a240d78bd6361668625f782ada9d71cdd6c5
+
+./.git/objects/25:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  687 2011-08-17 16:28 d4cfcd04a80e6e72cf2da1ebe37e738014cd5d
+
+./.git/objects/27:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  308 2011-05-21 13:18 48053632d6793e8614f96adc640ebf28b5157f
+-r--r--r--   1 wendy wendy  130 2011-05-29 14:37 8e1619dd35d9fa65781a2902de38b5863c5f40
+
+./.git/objects/28:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:38 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  117 2011-05-23 10:38 a5ddbe78731d45964f48bc922d40544fc5053b
+-r--r--r--   1 wendy wendy  376 2011-05-23 10:37 ceef326dea803a6a7d41d980a2beddc1627da0
+
+./.git/objects/2a:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  112 2011-05-29 11:44 7c156f5acab695af13ce13f88194209906e320
+
+./.git/objects/2b:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 1011 2011-05-29 14:18 00be5a7b703a7ec222b310024796d48bc86242
+-r--r--r--   1 wendy wendy  163 2011-05-21 18:49 216e760b9d47949426a98b450f118aef64eb14
+
+./.git/objects/2c:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   39 2011-05-21 14:21 057fd05451d46274bd4615fef38910583c108b
+-r--r--r--   1 wendy wendy   87 2011-06-01 17:16 213e01daa65236c2179b34f699943ac6da2790
+
+./.git/objects/2e:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  495 2011-05-29 13:17 7be3eb50c9d982316b60ab97c6d041b9166143
+
+./.git/objects/2f:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   84 2011-06-01 17:15 37a04efe78fb4f7aac078543d8c1d905e76aaa
+
+./.git/objects/30:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  525 2011-05-29 14:18 de15ff49ab3a64e14c7ca587c43d0725e47934
+
+./.git/objects/31:
+total 24
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  111 2011-05-23 10:17 2f72438f1378e8267a4685c7adadd485e76977
+-r--r--r--   1 wendy wendy  711 2011-05-29 11:43 5c4f4fa62cb720326ba3f54259666ba3999e42
+-r--r--r--   1 wendy wendy  399 2011-08-18 08:10 8fb71ac7825cf38d083a5ef1c586fedbc2af7e
+-r--r--r--   1 wendy wendy  171 2011-05-21 14:22 d135fb5b4c1bc726627517a4adde9fa1d5d609
+
+./.git/objects/33:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  566 2011-08-18 08:11 cbf71e1419b311d5748b7dc6b5223d5f781ac5
+
+./.git/objects/34:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-21 14:21 53cf2dde5ef5af034abf60c09705ae2abb9b01
+-r--r--r--   1 wendy wendy  769 2011-05-21 13:18 aff3c397cb1f0194ccec8ba3b25f5d91a531d5
+-r--r--r--   1 wendy wendy   50 2011-05-21 13:18 b41a8706567a6521f1baad637e086ff202359b
+
+./.git/objects/35:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:19 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-29 14:19 1db9a49d6ac5d627bfb24dca6a97f77f955a34
+
+./.git/objects/36:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  208 2011-08-17 16:28 1ef253d6f2bb3e80c4c84ddfc2836462821d1d
+-r--r--r--   1 wendy wendy  105 2011-06-01 17:15 98a40bc7045106110886a059c54c16e353fbb1
+
+./.git/objects/38:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   68 2011-05-21 14:22 453181ccf7213d40fd834140871febc898261d
+
+./.git/objects/3c:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   65 2011-05-29 11:44 612af2d8a6832cb836e061ba3e94f1744bb4ce
+-r--r--r--   1 wendy wendy  805 2011-05-21 18:49 d79fda4220faccae8f76bf8ed129038dcc7ac0
+
+./.git/objects/43:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:38 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-23 10:38 96a0eb052445b6c982d53422f776f3cfdab08b
+
+./.git/objects/44:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  160 2011-05-21 13:18 89e58688ca642d8e0e9489f6896f49f9b89da6
+-r--r--r--   1 wendy wendy  485 2011-05-21 13:18 cde042e98af10c2ca8a034e1021649a45d310e
+
+./.git/objects/45:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  117 2011-05-23 10:18 b0f55f8788417b9804abf175fd03596fe3c882
+-r--r--r--   1 wendy wendy  124 2011-05-21 13:18 d9c8b47e42e9e5865670338070182bb1fb5ed1
+
+./.git/objects/46:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  212 2011-08-18 08:11 4480a1df50d376195f9c5be661697f4eb4334d
+-r--r--r--   1 wendy wendy  779 2011-05-21 13:18 d3158b25b7959f001e25eee8f1d541267de6d0
+
+./.git/objects/48:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 15:12 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  477 2011-06-01 15:12 11fe644d86ae702a09e4e7cda692cf556ad6ca
+-r--r--r--   1 wendy wendy  221 2011-05-29 13:17 92c41fdda37ca79e13a096a9b19bf52ef90cf8
+
+./.git/objects/49:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  111 2011-05-29 11:44 06c87f8cad6e7ad0e2ca9a75c7c8db72acb7e9
+
+./.git/objects/4a:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  309 2011-05-29 11:44 59d2054a3125869d8cb47e15831910d6aa8710
+
+./.git/objects/4c:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  238 2011-06-01 17:15 26cb449e0a13e8775b4ac7506717a542c33e3f
+
+./.git/objects/4e:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  324 2011-08-17 16:28 30263189a2fcd0647d7b64afb9f5bb1ecaa02c
+-r--r--r--   1 wendy wendy   87 2011-05-29 11:44 435e4e96d701d3ea46700337ff1c6c191b37c3
+
+./.git/objects/4f:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  203 2011-05-29 14:18 53a21041d61b0cfcd5f7346a1d12ff94714cdf
+-r--r--r--   1 wendy wendy  113 2011-05-23 10:38 72196d0ff717e2fabfa2f33997fd50229443f9
+-r--r--r--   1 wendy wendy  251 2011-05-21 14:21 754480be1fa21163d677cdf1bd3e45737559f1
+
+./.git/objects/53:
+total 24
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  470 2011-05-21 18:49 3d9e8e5218432850975b230fde344a33ffdfc9
+-r--r--r--   1 wendy wendy   24 2011-05-21 13:18 607ea52b7fbb70f3a402736dbe7e6041557b49
+-r--r--r--   1 wendy wendy  359 2011-05-21 13:18 8bfd8e2643a36332827efb54965e634e2d4a75
+-r--r--r--   1 wendy wendy  168 2011-05-21 18:49 dd9dca714a1c3ea389a8296183777ff5fcaa12
+
+./.git/objects/54:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  181 2011-05-29 11:44 66b3712f222e54d7b41a9f9a0a28c063829b7a
+
+./.git/objects/55:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  223 2011-05-29 11:43 64c402ad05d96aba5c7c7316014d9efdd5e6fa
+-r--r--r--   1 wendy wendy   66 2011-05-21 13:18 d36c9605bfb2ff4f3fad0b7e6dbb554bc776b3
+
+./.git/objects/58:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   65 2011-05-21 13:18 1b7e551033ac6c86b67d473688953cad269676
+-r--r--r--   1 wendy wendy  151 2011-05-21 14:21 291b77e552f88f99005d0449b245413689578f
+-r--r--r--   1 wendy wendy   97 2011-08-18 08:11 6fb489264e85f0e3186961421c967af9b3dc81
+
+./.git/objects/59:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  252 2011-05-21 13:18 385cdf379bd06a8d2326dcd4de6d5cd5d3f5b0
+-r--r--r--   1 wendy wendy   48 2011-05-21 14:22 6a29223895360d4d10368a4b73115d05b73d87
+
+./.git/objects/5a:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  266 2011-05-21 13:18 123e8ba4c1fdc4e45bf5d4d3d0076dac73593b
+
+./.git/objects/5b:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:32 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  173 2011-05-29 13:32 15a1422c3ec9b36495f9d60feb733542c1ad27
+
+./.git/objects/5c:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  206 2011-06-01 17:15 697611dc88649bf812d7a395849bad55f959db
+
+./.git/objects/5d:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  170 2011-05-29 14:37 db83c23913d0cee732c8d9a84276f19d34ed82
+-r--r--r--   1 wendy wendy  190 2011-05-23 10:38 e13f2718331bb3b1c41120d7158a95574ac134
+
+./.git/objects/5e:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-21 14:21 c2e3a2ee7f426dcc5b1febce7e6864a2aa3c65
+-r--r--r--   1 wendy wendy   97 2011-08-17 16:28 cd5dbd932eb7e0e73a684c1b4613127bb69db4
+
+./.git/objects/5f:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  494 2011-05-21 18:49 5755f4bb579c5a04f29a71c7f9edab70cb673a
+
+./.git/objects/61:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  793 2011-05-29 11:43 a5371437013b59312a41fe4732cfcc54ff5330
+-r--r--r--   1 wendy wendy   31 2011-05-21 18:49 f260b7197b284b6158f5cc97f97b66dbe01a8f
+
+./.git/objects/62:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  113 2011-05-29 14:19 25559883ffb17ca98c8cb5789d965a91ac493f
+-r--r--r--   1 wendy wendy  130 2011-06-01 17:16 53807768fa7401849e0fa53171be4042841e84
+
+./.git/objects/64:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  125 2011-08-17 16:28 d701ae43187678b2bd2594d94f1d2e38a3d4d3
+
+./.git/objects/66:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  240 2011-05-21 13:18 4d8c74c881988e55df276a81f50d1d25b8d262
+
+./.git/objects/68:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:19 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  495 2011-05-29 11:44 26236b4aaadee1bbdfa471b2df3720c6566439
+-r--r--r--   1 wendy wendy  495 2011-05-29 14:19 8587623e20324720f1dacfe9f2666bd465720d
+
+./.git/objects/6a:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 1030 2011-05-21 13:18 032151ca1f2e6a3a25ca430d2a0ba12f8c6842
+-r--r--r--   1 wendy wendy  184 2011-08-17 16:28 0f3c8a89ed8c0fc7787857b6cea796571a6496
+-r--r--r--   1 wendy wendy  496 2011-06-01 17:16 c9b8f710e6f4d63deef39396e3113f3c7b0199
+
+./.git/objects/6b:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  129 2011-08-17 16:28 5de58b9905f4a6a7622c05716700ff8247a82d
+-r--r--r--   1 wendy wendy  120 2011-05-21 14:21 e2cfa1131a47bf0263490fde5d2b493d8fb236
+
+./.git/objects/6c:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:38 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   65 2011-05-23 10:38 caa2231f6a410b75b813520c8791b8f6d6b279
+
+./.git/objects/6e:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-21 18:49 c96d23b5450b92c3e51aa690df4722607a0bc5
+-r--r--r--   1 wendy wendy  219 2011-05-21 13:18 ddc557ec571a810afd13c6a1ca544f7c121102
+
+./.git/objects/70:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:31 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  495 2011-05-29 13:31 b94b41da4933146e55f0fbc5f0793760c95cc5
+
+./.git/objects/72:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  159 2011-05-21 13:18 aca7e441e1855f8c7a7ac1f1cbe5d42cd1235b
+-r--r--r--   1 wendy wendy  124 2011-05-29 14:44 b2694edfce6fa1b65f541c08cfb8607d56b45e
+-r--r--r--   1 wendy wendy  316 2011-05-29 14:54 c6be7d13b1d98906ce6d7047780b565ae9a2e8
+
+./.git/objects/73:
+total 24
+drwxr-xr-x   2 wendy wendy  4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   661 2011-05-29 11:43 48aed77fe6a64c2210a202f12c6eccae7fcf24
+-r--r--r--   1 wendy wendy 10894 2011-05-21 13:18 92fb664c08a6350e59eb6ac6bc2013af03428c
+
+./.git/objects/74:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  123 2011-05-21 13:18 f4dd00f77539f58c6f3f742cea021752f7a845
+
+./.git/objects/75:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 1924 2011-05-21 13:18 d5edd06dbc295c70e1b2693a34666c977bc35e
+
+./.git/objects/77:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   65 2011-05-29 14:37 96f8231cd31ff3125711def81f8acfcf906c90
+
+./.git/objects/78:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:21 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-21 14:21 48abe575541668b9aca1e3317e6d3f941857da
+
+./.git/objects/79:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  194 2011-05-21 18:49 978cb6f133cbf45cc9b1b80e05abd86f243085
+-r--r--r--   1 wendy wendy  761 2011-05-29 11:43 f35ccbdad44489dbf07d1bf688c411aa3b612c
+
+./.git/objects/7b:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  502 2011-05-29 11:43 4bef9888f801352496133663604876f9415d0e
+
+./.git/objects/7c:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 1068 2011-05-29 11:43 eb966e24278915d7df30641be376f7157dcbef
+
+./.git/objects/7d:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 1030 2011-05-29 11:43 b7eb5e62fd56db7a91e22498f3a3824354acde
+
+./.git/objects/7e:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  112 2011-06-01 17:16 c22ce1e22ac49749e5907de5eadad427b56620
+
+./.git/objects/7f:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  146 2011-08-17 16:28 f062f4f4f955ceedd0acbd24ce5e37cfceceb8
+
+./.git/objects/80:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 18:49 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   69 2011-05-21 18:49 02930637cbb2eb02fcd916de4a9e9c40c621bb
+
+./.git/objects/81:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   65 2011-05-21 14:22 8151d1076a1ba003ebc5155e46be60ee02bddf
+
+./.git/objects/82:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  163 2011-05-29 14:54 059bffc41ed11bb3739cbbe160bff98a6d3078
+-r--r--r--   1 wendy wendy   70 2011-05-21 13:18 4f032a3957f4438e9434e12bc3573295dfbb7f
+
+./.git/objects/83:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  797 2011-05-29 11:43 4cdfaf48a509ca51d93250fb28dd12e5ea0a13
+-r--r--r--   1 wendy wendy  428 2011-05-21 13:18 660ab1878ba9adc6477ed910333e32bb6b46ce
+
+./.git/objects/84:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:19 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-21 14:22 331108cb5106ae3bb416dc4037e2de83ac7b29
+-r--r--r--   1 wendy wendy  171 2011-05-29 14:19 d949e75b730706b34acacc84cd2ed2c1e9dd53
+
+./.git/objects/85:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  211 2011-05-29 11:43 f24915223b93f2a7e468890d917e34f709916b
+
+./.git/objects/88:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:17 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  318 2011-05-23 10:17 2b791afa4015d584b9729313098e0f7165b355
+
+./.git/objects/89:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   96 2011-05-29 11:44 75c39a8f218593e5c7d0ba7a8ea2d9065e1685
+
+./.git/objects/8a:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  722 2011-05-21 13:18 6fb5987a7135833b68bc2ec3893baa08177321
+
+./.git/objects/8d:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-29 13:17 4d024a42c6132298f9872c59eca173318c63fb
+-r--r--r--   1 wendy wendy  218 2011-05-23 10:37 71f02bbb5079545ccff2cf7cc8d475e2b1fb1c
+-r--r--r--   1 wendy wendy 3742 2011-05-29 11:43 b7583c51edd9465a7a10b5cb1f90249d93e1a3
+
+./.git/objects/8f:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  611 2011-05-29 11:43 8095e46fa4965700afe1f9d065d8a37b101676
+
+./.git/objects/90:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  241 2011-05-21 13:18 d87cc295f2cb9362e37f04bae70dddd6a40650
+
+./.git/objects/91:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:53 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  417 2011-05-29 11:43 6b3727fa972e2547d1e35cb8c7e278880fd46c
+-r--r--r--   1 wendy wendy  206 2011-05-29 14:53 efc0349a878b9b1923a808f8350385f12090c2
+
+./.git/objects/92:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  116 2011-05-29 13:17 288e712f6c04f33a1dda13cfa6b78d767e6918
+
+./.git/objects/93:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:17 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  103 2011-05-23 10:17 8bc808129f2b92e033507aafe2437cbc40ccec
+
+./.git/objects/95:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  144 2011-05-29 11:44 22ce02b1030b03bab2d5e84b90058e0d22240c
+-r--r--r--   1 wendy wendy  120 2011-06-01 17:15 88a718ea0825cae2958a75442cde0739af6dd7
+
+./.git/objects/96:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  308 2011-05-29 13:17 a01ee86681a35b60798747541b34c5582366f5
+
+./.git/objects/98:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  227 2011-06-01 17:15 827c452538a3ca031dc5cd825c5174f818f1a9
+
+./.git/objects/99:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  154 2011-05-29 14:19 3c48acd5b72740e11578cbae3f39e765d951c1
+-r--r--r--   1 wendy wendy  117 2011-06-01 17:16 c426804050bd2f52665ae57a6332ff927ca954
+
+./.git/objects/9a:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  430 2011-05-21 13:18 48320a5f1c025b6cc9819ab539a6d17fcbaf81
+
+./.git/objects/9b:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  181 2011-05-29 14:18 268f646a5e7b1b259cc98f700a08b024b49b50
+-r--r--r--   1 wendy wendy  553 2011-05-21 13:18 8b02c8f849235239fd5a8b6371117614c2c9e7
+-r--r--r--   1 wendy wendy  799 2011-05-21 14:21 d8bfc43592d34f31994ae7e562fb21d1431c2b
+
+./.git/objects/9d:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  164 2011-08-17 16:28 b211ba26c2586fa8c78b56186e5c9a3fd57082
+
+./.git/objects/9e:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-29 14:54 5b27c821ad0c9a9631adea46a00a17578ff885
+-r--r--r--   1 wendy wendy  163 2011-05-29 14:19 70050ace3edf278f117416f641e9091fd681da
+-r--r--r--   1 wendy wendy  247 2011-05-21 13:18 8b0131f8ff7e3d3923697eca0b0ffdc77b19ce
+
+./.git/objects/a6:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  126 2011-06-01 17:16 670dd934dcf189e3fff83fe8ec457eb637aaea
+-r--r--r--   1 wendy wendy  112 2011-05-21 18:49 b3a0b838b324e4e8f995113018c376938a3bd6
+-r--r--r--   1 wendy wendy  116 2011-05-21 18:49 d7513921522fd424a6334d9c8441e1a8333531
+
+./.git/objects/a7:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  173 2011-05-21 13:18 47bfa6987b7bec1bf149ecc5bb8801d5e25e34
+
+./.git/objects/a8:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-23 10:18 37b55095972699a745b44a4e8969d48427684c
+-r--r--r--   1 wendy wendy  766 2011-08-18 08:10 80077735966b1e08aef84ea596a534830c79f0
+
+./.git/objects/a9:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  557 2011-05-29 11:43 925a06ab02db30c1e7ead9c701c15bc63145cb
+-r--r--r--   1 wendy wendy  475 2011-05-29 11:43 d5e4f8cc75240f6e6bbb9e73466a9e3effb610
+
+./.git/objects/aa:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  440 2011-05-29 11:43 9fe26ba27a9971bc704f53614766008b76479b
+
+./.git/objects/ab:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  209 2011-05-21 13:18 1ae43fb0995e390a742e706cd4acb79b198c0a
+-r--r--r--   1 wendy wendy  234 2011-06-01 17:15 42510299931fc4cb1cc3f390e1dae965249b4e
+
+./.git/objects/ad:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  266 2011-05-29 13:16 95637cdb597031693588a1237cc893042fa934
+-r--r--r--   1 wendy wendy  172 2011-05-21 14:21 b4e33a17e89bee5b1b77dbb1e3875026780258
+-r--r--r--   1 wendy wendy 1429 2011-05-29 11:43 ef7128c79b87eaab1b3fa37de77db0aa0ca2c6
+
+./.git/objects/ae:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  211 2011-05-21 13:18 b9fa43883579e79923f20ea2f9644a520ee205
+-r--r--r--   1 wendy wendy 2105 2011-05-21 13:18 d6aed3693f367e82e783e9b93917e235862245
+
+./.git/objects/af:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  220 2011-05-29 13:16 45bfe11c27b6333bf6ae75c4a7f430b1db08e7
+
+./.git/objects/b1:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   78 2011-05-29 11:44 4b6fc8453fd6544c484698e48395870c27168e
+
+./.git/objects/b2:
+total 24
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   96 2011-05-21 14:22 2ae74251bbdc645cb0f7d0719b14f2ed4d715c
+-r--r--r--   1 wendy wendy 1010 2011-05-29 11:43 30b84282f5b5285521e2f8fc53015ddb3603fd
+-r--r--r--   1 wendy wendy  812 2011-05-29 11:43 6168faa1a29049f5201fc6fba16c18cc905341
+-r--r--r--   1 wendy wendy  125 2011-05-29 13:17 98f3436c8f4b7d30765d8c66efe2e004736388
+
+./.git/objects/b5:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  193 2011-05-29 14:37 181afe2bd3345419d3f91eb183d254b02bb0f0
+-r--r--r--   1 wendy wendy   65 2011-05-23 10:18 791ce39f581a8065f785e544e3e0ae23081fa0
+-r--r--r--   1 wendy wendy  120 2011-05-21 14:21 fdff5820fb901114473f51eb4c4ade0aae4c68
+
+./.git/objects/b6:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  152 2011-05-21 13:18 54b44478b665ad052d822b5298c61684a50ac4
+
+./.git/objects/b8:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  441 2011-05-21 13:18 0307fc1664db7814f02603257704f9873d9e67
+-r--r--r--   1 wendy wendy  495 2011-05-29 14:54 4fba465c50ca58f8f14e2b9ac663a99ec37254
+-r--r--r--   1 wendy wendy  455 2011-05-21 13:22 b0d408e0037545badf7bde8e67e933be93e8e5
+
+./.git/objects/b9:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-08-17 16:28 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  683 2011-05-29 11:43 77d7e52e2446ea01201c5c7209ac3a05f12c9f
+-r--r--r--   1 wendy wendy  112 2011-08-17 16:28 c35512c5269e12b488e3dfebdcadc92ab075a0
+-r--r--r--   1 wendy wendy  112 2011-05-23 10:18 c5ee1389e89a785fd8fee9faadb67db2de34a1
+
+./.git/objects/ba:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  268 2011-06-01 17:15 eb3a6ca87dfe841e9881bd8b80bddc94f1367a
+
+./.git/objects/bb:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  799 2011-05-29 11:43 66b2154d996a9029416db9a5d61d093982df7b
+
+./.git/objects/bd:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  164 2011-06-01 17:16 00fb191e6ce34a14b237d5e62c7cb63079b254
+-r--r--r--   1 wendy wendy  257 2011-05-29 11:44 83a41c8237e394e5e5a14b6fc43ef5c77e6e44
+
+./.git/objects/c1:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-23 10:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   99 2011-05-23 10:18 7d264e61cb3fd33bce891d8101895aeddbe68d
+
+./.git/objects/c7:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   94 2011-05-21 14:22 fcad0499a5275bc79209981b3b72d4ee1913f6
+
+./.git/objects/c8:
+total 28
+drwxr-xr-x   2 wendy wendy  4096 2011-05-21 18:49 .
+drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   380 2011-05-21 18:49 1354373264ea3dc9528d37392e3987b104b3dd
+-r--r--r--   1 wendy wendy 10746 2011-05-21 13:18 1e6c7d5f4bbb060089311f622bac99a41f6b5d
+-r--r--r--   1 wendy wendy   100 2011-05-21 18:49 747c58fe2e513e18488e759615f4df738b52dd
+
+./.git/objects/cb:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  129 2011-06-01 17:16 ab84981aa941fd00203e465163487a24d72a6e
+
+./.git/objects/ce:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  151 2011-05-29 11:43 d760e0d834aaf1bab0109c23f6877025744161
+
+./.git/objects/cf:
+total 48
+drwxr-xr-x   2 wendy wendy  4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 33311 2011-05-29 11:43 1cfb42687a8ddd637139eb8ff83e8d03e91a0f
+-r--r--r--   1 wendy wendy    96 2011-05-21 18:49 fa847fcc5ab64248e8403c66b7def8c384ae73
+
+./.git/objects/d3:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 14:22 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  532 2011-05-21 13:18 19fc4e9cfbb5637e7b9a94eb5d818a06d5f0ab
+-r--r--r--   1 wendy wendy  150 2011-05-21 14:22 373389990201c662cccbbe5a424edc3c2080be
+
+./.git/objects/d4:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  187 2011-05-29 11:43 2a6c32c173bf067ee9fe1aa062afd915fb366c
+
+./.git/objects/d5:
+total 600
+drwxr-xr-x   2 wendy wendy   4096 2011-05-29 13:16 .
+drwxr-xr-x 164 wendy wendy   4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 585870 2011-05-29 13:16 1c68664b8f8bd2ca4be448a9a4123e6d10ba88
+-r--r--r--   1 wendy wendy     53 2011-05-21 13:18 64d0bc3dd917926892c55e3706cc116d5b165e
+-r--r--r--   1 wendy wendy    289 2011-05-21 14:22 79b0b7cd7aed06981b23dc310373ce51c4e25d
+-r--r--r--   1 wendy wendy   6667 2011-05-21 13:18 edc04e65f555e3ba4dcdaad39dc352e75b575e
+
+./.git/objects/d6:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  886 2011-05-21 13:18 2f69743bc8b96b486e95fea52c6d3187c18007
+
+./.git/objects/d8:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:11 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  743 2011-05-21 18:49 0586082a06c4fac91ba7ce6936040703869d7a
+-r--r--r--   1 wendy wendy   59 2011-05-21 13:18 62feb3aa8c31c4d9e2a4a0c0e08b56fd581e6f
+-r--r--r--   1 wendy wendy  129 2011-08-18 08:11 67f936e700759a15094340d56fcc63cb235ce4
+
+./.git/objects/da:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  131 2011-05-21 13:18 4192127a4b2c88db28b82dcb9544fa8ec96273
+
+./.git/objects/db:
+total 24
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   99 2011-06-01 17:16 01ec582e141fa012c0c3b28a8e6ba2533d3e9e
+-r--r--r--   1 wendy wendy  493 2011-05-21 14:22 10973f3d7a02e01d489c22353f2b79718dbd4c
+-r--r--r--   1 wendy wendy  109 2011-05-23 10:17 bdc83a67b978ec6b1e5fe601654ac1f8afb5da
+-r--r--r--   1 wendy wendy 2678 2011-05-29 11:43 d5738130e44e56b0573f6e4c91fca4502fd4fd
+
+./.git/objects/dc:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   49 2011-05-21 13:18 2b96adb8bf2eca6ee8cf572c6cc8932a15814e
+
+./.git/objects/de:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   45 2011-05-21 13:18 6be7945c6a59798eb0ace177df38b05e98c2f0
+-r--r--r--   1 wendy wendy  240 2011-05-29 11:44 7e311feed711dc09e26bfc730af3a245372a94
+
+./.git/objects/df:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-08-18 08:10 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  272 2011-08-18 08:10 00b0c135e8e835fe75e648c15542c4680242b2
+-r--r--r--   1 wendy wendy  494 2011-05-23 10:38 ff09a3e7eda6b98b6009f32b52bd13b37da4ab
+
+./.git/objects/e4:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  289 2011-05-21 18:49 50930df274d05900cc9f771d3f96eec58256ff
+-r--r--r--   1 wendy wendy  120 2011-05-29 11:44 dc2d4bbc389bdd5aee3b1051c7d0a25caba45d
+
+./.git/objects/e6:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   15 2011-05-21 13:18 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+
+./.git/objects/e7:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 13:17 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   91 2011-05-29 13:17 bb84fddb4d53c97f4f6cdc0e52656f42102db9
+
+./.git/objects/e8:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   82 2011-05-21 13:18 065d9505d7ec6f727021c827de18a0a95737de
+-r--r--r--   1 wendy wendy  173 2011-05-29 11:44 8fa2b26e0ecd9c18a2c5e3398a9af2f86e425e
+-r--r--r--   1 wendy wendy  495 2011-05-23 10:18 dcc86cb2c65ad4235adcd9aa9ffc25bfca414d
+
+./.git/objects/eb:
+total 44
+drwxr-xr-x   2 wendy wendy  4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 33702 2011-05-29 11:43 f206def2729dae1fa9e8c5c9e5a95b7176c45b
+
+./.git/objects/ec:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:22 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  182 2011-05-21 13:22 4609b7b1a25ed0638f7ae48f0060dbc5f8424e
+
+./.git/objects/ed:
+total 20
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   52 2011-05-21 13:18 15a23ed4b5781d8c68e97b645e781ec9697fee
+-r--r--r--   1 wendy wendy  289 2011-05-21 13:18 623103bbb5ff153e77f4acdc567c32e418d029
+-r--r--r--   1 wendy wendy  194 2011-05-29 14:18 64391ea52012090b75cd61c0d9bf6196240f95
+
+./.git/objects/ee:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:16 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   64 2011-06-01 17:16 ad3964191a6f651c44b6ba9d2c5e8da0bcef61
+
+./.git/objects/ef:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   89 2011-05-29 11:44 efd4a177d6936754fbaae23fae5298eda79794
+
+./.git/objects/f0:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   49 2011-05-21 13:18 fa30c5360397d06fcd6369eb41ce3f08a09da9
+
+./.git/objects/f1:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  214 2011-05-21 13:18 38a34a41b33ca6d4bd6ffbe2bfeb3ffdff1297
+
+./.git/objects/f3:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:53 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  223 2011-05-29 14:53 7ab8db3b1c1f09dfb1bc78c37d1033b069e78d
+
+./.git/objects/f4:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   88 2011-05-29 11:44 875942785e7c2bea0e94d6edfea41771ffda91
+
+./.git/objects/f5:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   54 2011-05-21 13:18 491c2323e75b9df95eb3c8f5a1cd064bc35a8b
+
+./.git/objects/f7:
+total 24
+drwxr-xr-x   2 wendy wendy  4096 2011-08-17 15:55 .
+drwxr-xr-x 164 wendy wendy  4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy 14957 2011-08-17 15:55 6cb736c10c2ed674e947525abb061b7d9e21df
+
+./.git/objects/f8:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy   51 2011-05-21 13:18 eadc28ac0c6907ac39959ba9e11e5cf7b9e86b
+
+./.git/objects/fa:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:37 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  495 2011-05-29 14:37 a1006d04544085253dd946efbd65eb6fbfb64f
+
+./.git/objects/fc:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  260 2011-05-29 11:43 4dc649002bfe0ea2fbd01e552c6352f23618cd
+
+./.git/objects/fd:
+total 12
+drwxr-xr-x   2 wendy wendy 4096 2011-06-01 17:15 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  848 2011-06-01 17:15 c85fc04bc50f6773cf4440e33fffaa193f69f2
+
+./.git/objects/fe:
+total 24
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 11:43 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  676 2011-05-29 11:43 2e08944674f5f0ef84ee171c773622d637b6b2
+-r--r--r--   1 wendy wendy  169 2011-05-21 13:18 41f5cc24d667635c46a533fd09bf7bb514e032
+-r--r--r--   1 wendy wendy  133 2011-05-21 13:18 4577696b2811818fe7439990be0d2f65a892c5
+-r--r--r--   1 wendy wendy 4061 2011-05-21 13:18 7013d52d1146ec64f4aba2112d780ae1cd4b9b
+
+./.git/objects/ff:
+total 16
+drwxr-xr-x   2 wendy wendy 4096 2011-05-29 14:44 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+-r--r--r--   1 wendy wendy  278 2011-05-29 14:44 408c4432216e7ad0b41e0201d4233d908af6eb
+-r--r--r--   1 wendy wendy  112 2011-05-29 13:17 4add9d5faa464841d3f295030db3b8ebf3229a
+
+./.git/objects/info:
+total 8
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+
+./.git/objects/pack:
+total 8
+drwxr-xr-x   2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 164 wendy wendy 4096 2011-08-18 08:11 ..
+
+./.git/refs:
+total 20
+drwxr-xr-x 5 wendy wendy 4096 2011-05-21 13:23 .
+drwxr-xr-x 8 wendy wendy 4096 2011-08-18 08:11 ..
+drwxr-xr-x 2 wendy wendy 4096 2011-08-18 08:11 heads
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:34 remotes
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 13:18 tags
+
+./.git/refs/heads:
+total 36
+drwxr-xr-x 2 wendy wendy 4096 2011-08-18 08:11 .
+drwxr-xr-x 5 wendy wendy 4096 2011-05-21 13:23 ..
+-rw-r--r-- 1 wendy wendy   41 2011-05-23 10:38 dyn1
+-rw-r--r-- 1 wendy wendy   41 2011-08-17 16:28 finLayouts
+-rw-r--r-- 1 wendy wendy   41 2011-05-29 14:54 lab3-2
+-rw-r--r-- 1 wendy wendy   41 2011-06-01 17:16 lab5-3
+-rw-r--r-- 1 wendy wendy   41 2011-08-17 16:29 master
+-rw-r--r-- 1 wendy wendy   41 2011-08-18 08:11 modUsers
+-rw-r--r-- 1 wendy wendy   41 2011-05-21 18:49 static-pages
+
+./.git/refs/remotes:
+total 16
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:34 .
+drwxr-xr-x 5 wendy wendy 4096 2011-05-21 13:23 ..
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:19 heroku
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:56 origin
+
+./.git/refs/remotes/heroku:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:19 .
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:34 ..
+-rw-r--r-- 1 wendy wendy   41 2011-06-01 17:19 master
+
+./.git/refs/remotes/origin:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:56 .
+drwxr-xr-x 4 wendy wendy 4096 2011-05-21 13:34 ..
+-rw-r--r-- 1 wendy wendy   41 2011-06-01 17:17 master
+
+./.git/refs/tags:
+total 8
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 13:18 .
+drwxr-xr-x 5 wendy wendy 4096 2011-05-21 13:23 ..
+
+./lib:
+total 12
+drwxr-xr-x  3 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 tasks
+
+./lib/tasks:
+total 8
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 3 wendy wendy 4096 2011-05-21 12:38 ..
+-rw-r--r-- 1 wendy wendy    0 2011-05-21 12:38 .gitkeep
+
+./log:
+total 148
+drwxr-xr-x  2 wendy wendy   4096 2011-05-21 12:38 .
+drwxr-xr-x 14 wendy wendy   4096 2011-08-18 12:17 ..
+-rw-rw-rw-  1 wendy wendy  31945 2011-08-18 12:12 development.log
+-rw-rw-rw-  1 wendy wendy      0 2011-05-21 12:38 production.log
+-rw-rw-rw-  1 wendy wendy      0 2011-05-21 12:38 server.log
+-rw-rw-rw-  1 wendy wendy 100839 2011-08-17 16:50 test.log
+
+./public:
+total 44
+drwxr-xr-x  5 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+-rw-r--r--  1 wendy wendy  728 2011-05-21 12:38 404.html
+-rw-r--r--  1 wendy wendy  711 2011-05-21 12:38 422.html
+-rw-r--r--  1 wendy wendy  728 2011-05-21 12:38 500.html
+-rw-r--r--  1 wendy wendy 5780 2011-05-29 14:54 default_index.html
+-rw-r--r--  1 wendy wendy    0 2011-05-21 12:38 favicon.ico
+drwxr-xr-x  2 wendy wendy 4096 2011-05-29 14:54 images
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 javascripts
+-rw-r--r--  1 wendy wendy  204 2011-05-21 12:38 robots.txt
+drwxr-xr-x  3 wendy wendy 4096 2011-05-29 14:54 stylesheets
+
+./public/images:
+total 792
+drwxr-xr-x 2 wendy wendy   4096 2011-05-29 14:54 .
+drwxr-xr-x 5 wendy wendy   4096 2011-05-29 14:54 ..
+-rw-r--r-- 1 wendy wendy   6646 2011-05-21 12:38 rails.png
+-rw-r--r-- 1 wendy wendy 790797 2011-05-29 14:54 WWMastHead.jpg
+
+./public/javascripts:
+total 288
+drwxr-xr-x 2 wendy wendy   4096 2011-05-21 12:38 .
+drwxr-xr-x 5 wendy wendy   4096 2011-05-29 14:54 ..
+-rw-r--r-- 1 wendy wendy    148 2011-05-21 12:38 application.js
+-rw-r--r-- 1 wendy wendy  34787 2011-05-21 12:38 controls.js
+-rw-r--r-- 1 wendy wendy  31056 2011-05-21 12:38 dragdrop.js
+-rw-r--r-- 1 wendy wendy  38467 2011-05-21 12:38 effects.js
+-rw-r--r-- 1 wendy wendy 162353 2011-05-21 12:38 prototype.js
+-rw-r--r-- 1 wendy wendy   6278 2011-05-21 12:38 rails.js
+
+./public/stylesheets:
+total 16
+drwxr-xr-x 3 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 5 wendy wendy 4096 2011-05-29 14:54 ..
+drwxr-xr-x 4 wendy wendy 4096 2011-05-29 14:54 blueprint
+-rw-r--r-- 1 wendy wendy 1273 2011-05-29 14:54 custom.css
+-rw-r--r-- 1 wendy wendy    0 2011-05-21 12:38 .gitkeep
+
+./public/stylesheets/blueprint:
+total 40
+drwxr-xr-x 4 wendy wendy  4096 2011-05-29 14:54 .
+drwxr-xr-x 3 wendy wendy  4096 2011-05-29 14:54 ..
+-rw-r--r-- 1 wendy wendy  1936 2011-05-29 14:54 ie.css
+drwxr-xr-x 6 wendy wendy  4096 2011-05-29 14:54 plugins
+-rw-r--r-- 1 wendy wendy  1284 2011-05-29 14:54 print.css
+-rw-r--r-- 1 wendy wendy 12334 2011-05-29 14:54 screen.css
+drwxr-xr-x 2 wendy wendy  4096 2011-05-29 14:54 src
+
+./public/stylesheets/blueprint/plugins:
+total 24
+drwxr-xr-x 6 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 4 wendy wendy 4096 2011-05-29 14:54 ..
+drwxr-xr-x 3 wendy wendy 4096 2011-05-29 14:54 buttons
+drwxr-xr-x 2 wendy wendy 4096 2011-05-29 14:54 fancy-type
+drwxr-xr-x 3 wendy wendy 4096 2011-05-29 14:54 link-icons
+drwxr-xr-x 2 wendy wendy 4096 2011-05-29 14:54 rtl
+
+./public/stylesheets/blueprint/plugins/buttons:
+total 20
+drwxr-xr-x 3 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 6 wendy wendy 4096 2011-05-29 14:54 ..
+drwxr-xr-x 2 wendy wendy 4096 2011-05-29 14:54 icons
+-rw-r--r-- 1 wendy wendy  930 2011-05-29 14:54 readme.txt
+-rw-r--r-- 1 wendy wendy 2004 2011-05-29 14:54 screen.css
+
+./public/stylesheets/blueprint/plugins/buttons/icons:
+total 20
+drwxr-xr-x 2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 3 wendy wendy 4096 2011-05-29 14:54 ..
+-rwxr-xr-x 1 wendy wendy  655 2011-05-29 14:54 cross.png
+-rwxr-xr-x 1 wendy wendy  455 2011-05-29 14:54 key.png
+-rwxr-xr-x 1 wendy wendy  537 2011-05-29 14:54 tick.png
+
+./public/stylesheets/blueprint/plugins/fancy-type:
+total 16
+drwxr-xr-x 2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 6 wendy wendy 4096 2011-05-29 14:54 ..
+-rw-r--r-- 1 wendy wendy  340 2011-05-29 14:54 readme.txt
+-rw-r--r-- 1 wendy wendy 2244 2011-05-29 14:54 screen.css
+
+./public/stylesheets/blueprint/plugins/link-icons:
+total 20
+drwxr-xr-x 3 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 6 wendy wendy 4096 2011-05-29 14:54 ..
+drwxr-xr-x 2 wendy wendy 4096 2011-05-29 14:54 icons
+-rw-r--r-- 1 wendy wendy  449 2011-05-29 14:54 readme.txt
+-rw-r--r-- 1 wendy wendy 1343 2011-05-29 14:54 screen.css
+
+./public/stylesheets/blueprint/plugins/link-icons/icons:
+total 128
+drwxr-xr-x 2 wendy wendy  4096 2011-05-29 14:54 .
+drwxr-xr-x 3 wendy wendy  4096 2011-05-29 14:54 ..
+-rw-r--r-- 1 wendy wendy   777 2011-05-29 14:54 doc.png
+-rw-r--r-- 1 wendy wendy   641 2011-05-29 14:54 email.png
+-rw-r--r-- 1 wendy wendy 46848 2011-05-29 14:54 external.png
+-rw-r--r-- 1 wendy wendy   691 2011-05-29 14:54 feed.png
+-rw-r--r-- 1 wendy wendy   741 2011-05-29 14:54 im.png
+-rw-r--r-- 1 wendy wendy   591 2011-05-29 14:54 pdf.png
+-rw-r--r-- 1 wendy wendy 46990 2011-05-29 14:54 visited.png
+-rw-r--r-- 1 wendy wendy   663 2011-05-29 14:54 xls.png
+
+./public/stylesheets/blueprint/plugins/rtl:
+total 20
+drwxr-xr-x 2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 6 wendy wendy 4096 2011-05-29 14:54 ..
+-rw-r--r-- 1 wendy wendy  327 2011-05-29 14:54 readme.txt
+-rw-r--r-- 1 wendy wendy 4839 2011-05-29 14:54 screen.css
+
+./public/stylesheets/blueprint/src:
+total 44
+drwxr-xr-x 2 wendy wendy 4096 2011-05-29 14:54 .
+drwxr-xr-x 4 wendy wendy 4096 2011-05-29 14:54 ..
+-rw-r--r-- 1 wendy wendy 2686 2011-05-29 14:54 forms.css
+-rwxr-xr-x 1 wendy wendy 9518 2011-05-29 14:54 grid.css
+-rw-r--r-- 1 wendy wendy  195 2011-05-29 14:54 grid.png
+-rw-r--r-- 1 wendy wendy 2669 2011-05-29 14:54 ie.css
+-rwxr-xr-x 1 wendy wendy 2157 2011-05-29 14:54 print.css
+-rwxr-xr-x 1 wendy wendy 1577 2011-05-29 14:54 reset.css
+-rw-r--r-- 1 wendy wendy 3638 2011-05-29 14:54 typography.css
+
+./script:
+total 12
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+-rwxr-xr-x  1 wendy wendy  298 2011-05-21 12:38 rails
+
+./spec:
+total 24
+drwxr-xr-x  5 wendy wendy 4096 2011-08-18 11:20 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+drwxr-xr-x  2 wendy wendy 4096 2011-06-01 17:17 controllers
+drwxr-xr-x  2 wendy wendy 4096 2011-08-18 11:20 models
+drwxr-xr-x  2 wendy wendy 4096 2011-08-18 12:16 requests
+-rw-r--r--  1 wendy wendy  978 2011-05-21 18:02 spec_helper.rb
+
+./spec/controllers:
+total 16
+drwxr-xr-x 2 wendy wendy 4096 2011-06-01 17:17 .
+drwxr-xr-x 5 wendy wendy 4096 2011-08-18 11:20 ..
+-rw-r--r-- 1 wendy wendy  935 2011-05-21 18:53 pages_controller_spec.rb
+-rw-r--r-- 1 wendy wendy  590 2011-06-01 17:17 users_controller_spec.rb
+
+./spec/models:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-08-18 11:20 .
+drwxr-xr-x 5 wendy wendy 4096 2011-08-18 11:20 ..
+-rw-r--r-- 1 wendy wendy  307 2011-08-18 11:33 user_spec.rb
+
+./spec/requests:
+total 12
+drwxr-xr-x 2 wendy wendy 4096 2011-08-18 12:16 .
+drwxr-xr-x 5 wendy wendy 4096 2011-08-18 11:20 ..
+-rw-r--r-- 1 wendy wendy 1449 2011-08-18 12:16 layout_links_spec.rb
+
+./tmp:
+total 24
+drwxr-xr-x  6 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 cache
+drwxr-xr-x  2 wendy wendy 4096 2011-08-18 08:09 pids
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 sessions
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 sockets
+
+./tmp/cache:
+total 8
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 6 wendy wendy 4096 2011-05-21 12:38 ..
+
+./tmp/pids:
+total 8
+drwxr-xr-x 2 wendy wendy 4096 2011-08-18 08:09 .
+drwxr-xr-x 6 wendy wendy 4096 2011-05-21 12:38 ..
+
+./tmp/sessions:
+total 8
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 6 wendy wendy 4096 2011-05-21 12:38 ..
+
+./tmp/sockets:
+total 8
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 6 wendy wendy 4096 2011-05-21 12:38 ..
+
+./vendor:
+total 12
+drwxr-xr-x  3 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 14 wendy wendy 4096 2011-08-18 12:17 ..
+drwxr-xr-x  2 wendy wendy 4096 2011-05-21 12:38 plugins
+
+./vendor/plugins:
+total 8
+drwxr-xr-x 2 wendy wendy 4096 2011-05-21 12:38 .
+drwxr-xr-x 3 wendy wendy 4096 2011-05-21 12:38 ..
+-rw-r--r-- 1 wendy wendy    0 2011-05-21 12:38 .gitkeep
