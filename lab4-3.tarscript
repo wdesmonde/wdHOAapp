@@ -1,7 +1,7 @@
-app/views/users/show.html.erb
-app/controllers/users_controller.rb
-config/routes.rb
-app/views/layouts/application.html.erb
-db/production.sqlite3
-public/stylesheets/custom.css
-app/helpers/application_helper.rb
+tar cf lab4-3.tar app/views/users/show.html.erb
+tar rf lab4-3.tar app/controllers/users_controller.rb
+tar rf lab4-3.tar config/routes.rb
+tar rf lab4-3.tar app/views/layouts/application.html.erb
+tar rf lab4-3.tar db/production.sqlite3
+tar rf lab4-3.tar public/stylesheets/custom.css
+tar rf lab4-3.tar app/helpers/application_helper.rb
