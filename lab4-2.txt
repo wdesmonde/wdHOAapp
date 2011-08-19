@@ -13,3 +13,7 @@ spec/models/user_spec.rb  # tests for the database constraints
 
 db/migrate/20110819001554_add_email_uniqueness_index.rb
    # the migration which will add the index to the email field of the database
+
+db/schema.rb
+   # the schema modified as a result of adding the index
+
