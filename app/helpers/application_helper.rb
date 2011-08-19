@@ -2,7 +2,7 @@ module ApplicationHelper
 
   # where the logo is
   def logo
-    logo = image_tag("WWMastHead.jpg", :alt => "WWCA Requests",
+    logo = image_tag("WWMastHead.jpg", :size => "700x70",:alt => "WWCA Requests",
       :class => "round")
   end
 

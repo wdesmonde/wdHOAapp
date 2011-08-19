@@ -1,0 +1,29 @@
+Lab 4, part 3
+
+NEW/MODIFIED FILES
+app/views/users/show.html.erb  
+    # page for basic showing of user name & email on page
+app/controllers/users_controller.rb  
+    # add show action
+config/routes.rb
+    # add user page to routes
+   
+
+
+***Related to the environment exercises in Hartl***
+app/views/layouts/application.html.erb
+db/production.sqlite3
+
+***First pass at cleaning up UI***
+public/stylesheets/custom.css
+  # changed background color and color of login button
+app/helpers/application_helper.rb
+  # added size attribute to logo to reduce its size
+
+
+
+SCREENSHOTS
+users-1.png
+users-2.png
+  # shows I added two users to database
+  # and updated routes, etc. to display them
