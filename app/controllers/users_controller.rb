@@ -5,7 +5,8 @@ class UsersController < ApplicationController
   end
 
   def new
-    @title = "New User"
+    @user = User.new
+    @title = "Sign Up New User"
   end
 
   def login
