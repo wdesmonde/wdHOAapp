@@ -4,7 +4,7 @@ describe "Users" do
   describe "signup" do
 
     describe "failure" do
-      it "should not make a new user" do
+      it "should not make a new user if all fields blank" do
         lambda do
           visit signup_path
           fill_in "Name",  :with => ""
@@ -16,6 +16,24 @@ describe "Users" do
           response.should have_selector("div#error_explanation")
         end.should_not change(User, :count)
       end
+
+      it "should not make a new user if name blank others valid" do
+        lambda do
+          visit signup_path
+          fill_in "Name",  :with => ""
+          fill_in "Email",  :with => "someone@won.com"
+          fill_in "Password",  :with => "foolishbar"
+          fill_in "Confirm Your Password",  :with => "foolishbar"
+          click_button
+          response.should render_template('users/new')
+          response.should have_selector("div#error_explanation")
+          response.should have_selector(
+            "input#user_password" , :content => "") 
+          response.should have_selector(
+            "input#user_password_confirmation" , :content => "") 
+        end.should_not change(User, :count)
+      end
+
 
       it "should make a new user" do
         lambda do
