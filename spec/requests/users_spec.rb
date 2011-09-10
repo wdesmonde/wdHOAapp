@@ -54,6 +54,58 @@ describe "Users" do
 
   end
 
+  describe "sign in/out" do
+
+    before(:each) do
+      @user = Factory(:user)
+    end
+
+    describe "failure" do
+      it "should not sign an invalid user in where both fields blank" do
+#        user = Factory(:user)
+        @user.email = ""
+        @user.password = "" 
+        integration_sign_in(@user)
+=begin
+        visit signin_path
+        fill_in :email, :with => ""
+        fill_in :password, :with => ""
+        click_button
+=end
+        response.should have_selector("div.flash.error", :content => "Invalid")
+      end
+
+      it "should not sign an invalid user in where both fields have invalid data" do
+#        user = Factory(:user)
+        @user.email = "invalid@invalid"
+        @user.password = "123" 
+        integration_sign_in(@user)
+=begin
+        visit signin_path
+        fill_in :email, :with => "invalid@invalid"
+        fill_in :password, :with => "123"
+        click_button
+=end
+        response.should have_selector("div.flash.error", :content => "Invalid")
+      end
+    end
+
+    describe "success" do
+      it "should sign a user in and out" do
+#        user = Factory(:user)
+        integration_sign_in(@user)
+=begin
+        visit signin_path
+        fill_in :email, :with => user.email
+        fill_in :password, :with => user.password
+        click_button
+=end
+        controller.should be_signed_in
+        click_link "Sign out"
+        controller.should_not be_signed_in
+      end
+    end
+  end
 =begin
 This doesn't work yet because users_index_path doesn't work.
 Commenting this out for now.
