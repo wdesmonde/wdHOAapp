@@ -86,9 +86,9 @@ a:visited {
   color: #069;
 }
 
-/* Login button */
+/* Signin button */
 
-a.login_button {
+a.signin.button {
   margin-left: auto;
   margin-right: auto;
   display: block;

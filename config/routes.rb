@@ -1,9 +1,13 @@
 WdHOAapp::Application.routes.draw do
+  get "sessions/new"
+
   resources :users
+  resources :sessions, :only => [:new, :create, :destroy]
 
 
   match '/signup', :to => 'users#new'
-  match '/login', :to => 'users#login'
+  match '/signin', :to => 'sessions#new'
+  match '/signout', :to => 'sessions#destroy'
   match '/help',  :to => 'pages#help'
   match '/about',  :to => 'pages#about'
 

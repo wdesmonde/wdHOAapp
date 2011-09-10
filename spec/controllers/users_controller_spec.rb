@@ -71,18 +71,19 @@ describe UsersController do
         "input[name='user[password_confirmation]'][type='password']")
     end
   end
-
-  describe "GET 'login'" do
+=begin
+  describe "GET 'signin'" do
     it "should be successful" do
-      get 'login'
+      get 'signin'
       response.should be_success
     end
   
     it "should have the right title" do
-      get 'login'
-      response.should have_selector("title", :content => "Login")
+      get 'signin'
+      response.should have_selector("title", :content => /Sign in/i)
     end
   end
+=end
 
   describe "POST 'create'" do
 
@@ -135,6 +136,12 @@ describe UsersController do
         post :create, :user => @attr
         flash[:success].should =~ /welcome to/i
       end
+
+      it "should sign the user in" do
+        post :create, :user => @attr
+        controller.should be_signed_in
+      end
+
     end
 
 
