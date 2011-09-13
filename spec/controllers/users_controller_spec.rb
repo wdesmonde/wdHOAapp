@@ -322,4 +322,42 @@ describe UsersController do
 
   end # put update
 
+  describe "authentication of edit/update pages" do
+
+    before(:each) do
+      @user = Factory(:user)
+    end
+
+    describe "for non-signed-in users" do
+    
+      it "should deny access to 'edit'" do
+        get :edit, :id => @user
+        response.should redirect_to(signin_path)
+      end
+
+      it "should deny access to 'update'" do
+        get :edit, :id => @user
+        response.should redirect_to(signin_path)
+      end
+    end # non-signed in
+
+    describe "for signed-in users" do
+      describe "cannot access another user's edit page" do
+        before(:each) do
+          wrong_user = Factory(:user, :email => "mistamesh@doogma.net")
+          test_sign_in(wrong_user)
+        end
+
+        it "should require matching users for 'edit'" do
+          get :edit, :id => @user
+          response.should redirect_to(root_path)
+        end
+
+        it "should require matching users for 'update'" do
+          put :update, :id => @user
+          response.should redirect_to(root_path)
+        end
+      end # only own edit page
+    end # signed in
+  end # auth edit/update pages
 end
