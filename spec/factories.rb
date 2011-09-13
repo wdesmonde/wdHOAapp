@@ -8,3 +8,6 @@ Factory.define :user do |user|
   user.password_confirmation  "foolishbar"
 end
 
+Factory.sequence :email do |n|
+  "mishaho-#{n}@doogma.net"
+end

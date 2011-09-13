@@ -1,6 +1,11 @@
 class UsersController < ApplicationController
-  before_filter :authenticate, :only => [:edit, :update]
+  before_filter :authenticate, :only => [:index, :edit, :update]
   before_filter :correct_user, :only => [:edit, :update]
+
+  def index
+    @title = "All Members"
+    @users = User.paginate(:page => params[:page], :per_page => 10)
+  end
 
   def show
     @user = User.find(params[:id])
@@ -33,7 +38,7 @@ class UsersController < ApplicationController
   def edit
     # this line is now part of 'correct_user'
     # @user = User.find(params[:id])
-    @title = "Edit User"
+    @title = "Edit Settings"
   end
 
   def update
