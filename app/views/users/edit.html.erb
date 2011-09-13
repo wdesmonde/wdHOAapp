@@ -1,5 +1,10 @@
 <h1>Change Settings</h1>
 
+<div>
+  <%= gravatar_for @user =%>
+  <%= link_to "Change Image", "http://gravatar.com/emails", :target => "_blank" %>
+</div>
+
 <%= form_for(@user) do |f| %>
   <%= render 'shared/error_messages', :object => f.object %>
   <div class="field">
@@ -23,8 +28,4 @@
   </div>
 <% end %>
 
-<div>
-  <%= gravatar_for @user =%>
-  <a href="http://gravatar.com/emails">Change Image</a>
-</div>
 
