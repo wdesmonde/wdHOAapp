@@ -1,10 +1,10 @@
-<% if @user.errors.any? %>
+<% if object.errors.any? %>
   <div id="error_explanation">
-    <h2>Could not save user! 
-      ( <%= pluralize(@user.errors.count, "error") %> )</h2>
+    <h2>Could not save <%= object.class.to_s.underscore.humanize.downcase %>. 
+      ( <%= pluralize(object.errors.count, "error") %> )</h2>
       <p>There were problems with the following:</p>
       <ul>
-      <% @user.errors.full_messages.each do |msg| %>
+      <% object.errors.full_messages.each do |msg| %>
         <li><%= msg %></li>
       <% end %>
       </ul>

@@ -144,7 +144,182 @@ describe UsersController do
 
     end
 
-
   end
+
+  describe "GET 'edit'" do
+    before(:each) do
+      @user = Factory(:user)
+      test_sign_in(@user)
+    end
+
+    it "should be successful" do
+      get :edit, :id => @user
+      response.should be_success
+    end
+
+    it "should have the right title" do
+      get :edit, :id => @user
+      response.should have_selector("title", :content => "Edit User")
+    end
+
+    it "should have a link to change the Gravatar" do
+      get :edit, :id => @user
+      gravatar_url = "http://gravatar.com/emails"
+      response.should have_selector("a", :href => gravatar_url, 
+        :content => "Change Image")
+    end
+  end # get edit
+
+  describe "PUT 'update'" do
+
+    before(:each) do
+      @user = Factory(:user)
+      test_sign_in(@user)
+    end
+
+    describe "failure" do
+
+      describe "where none of the fields are filled in" do
+
+        before(:each) do
+          @attr = { :name => "", 
+            :email => "", 
+            :password => "", :password_confirmation => "" }
+        end
+
+        it "should render the 'edit' page" do
+          put :update, :id => @user, :user => @attr
+          response.should render_template('edit')
+        end
+
+        it "should have the right title" do
+          put :update, :id => @user, :user => @attr
+          response.should have_selector("title", :content => "Edit Settings")
+        end
+  
+      end # blank fields
+
+      describe "where only the name field is filled in" do
+
+        before(:each) do
+          @attr = { :name => "Shem Hadash" }
+        end
+
+        it "should render the 'edit' page" do
+          put :update, :id => @user, :user => @attr
+          response.should render_template('edit')
+        end
+
+        it "should have the right title" do
+          put :update, :id => @user, :user => @attr
+          response.should have_selector("title", :content => "Edit Settings")
+        end
+  
+      end # only name field
+
+      describe "where the password field is filled in with an invalid value" do
+
+        before(:each) do
+          @attr = { :email => "Shem.Hadash",
+            :password => @user.password,
+            :password_confirmation => @user.password_confirmation }
+        end
+
+        it "should render the 'edit' page" do
+          put :update, :id => @user, :user => @attr
+          response.should render_template('edit')
+        end
+
+        it "should have the right title" do
+          put :update, :id => @user, :user => @attr
+          response.should have_selector("title", :content => "Edit Settings")
+        end
+  
+      end # invalid email address
+
+    end # put failure
+
+    describe "success" do
+      describe "changing all the fields" do
+
+        before(:each) do
+          @attr = { :name => "Shona Shem", 
+            :email => "shona@shem.net", 
+            :password => "newfoolishbar", :password_confirmation => "newfoolishbar" }
+        end
+
+        it "should change the user's attributes" do
+          put :update, :id => @user, :user => @attr
+          @user.reload
+          @user.name.should == @attr[:name]
+          @user.email.should == @attr[:email]
+          # doesn't test that password was changed
+        end
+
+        it "should redirect to the user show page" do
+          put :update, :id => @user, :user => @attr
+          response.should redirect_to(user_path(@user))
+        end
+
+        it "should have a flash message" do
+          put :update, :id => @user, :user => @attr
+          flash[:success].should =~ /updated/i
+        end
+      end # changing all fields  
+
+      describe "changing only the name" do
+
+        before(:each) do
+          @attr = { :name => "Shona Shem", 
+            #:email => "shona@shem.net", 
+            :password => "newfoolishbar", :password_confirmation => "newfoolishbar" }
+        end
+
+        it "should change the user's name" do
+          put :update, :id => @user, :user => @attr
+          @user.reload
+          @user.name.should == @attr[:name]
+          @user.email.should == @user[:email]
+        end
+
+        it "should redirect to the user show page" do
+          put :update, :id => @user, :user => @attr
+          response.should redirect_to(user_path(@user))
+        end
+
+        it "should have a flash message" do
+          put :update, :id => @user, :user => @attr
+          flash[:success].should =~ /updated/i
+        end
+      end # changing only name  
+
+      describe "changing only the password" do
+
+        before(:each) do
+          @attr = { #:name => "Shona Shem", 
+            #:email => "shona@shem.net", 
+            :password => "newfoolishbar", :password_confirmation => "newfoolishbar" }
+        end
+
+        it "should change the user's password" do
+          put :update, :id => @user, :user => @attr
+          @user.reload
+          @user.name.should == @user[:name]
+          @user.email.should == @user[:email]
+        end
+
+        it "should redirect to the user show page" do
+          put :update, :id => @user, :user => @attr
+          response.should redirect_to(user_path(@user))
+        end
+
+        it "should have a flash message" do
+          put :update, :id => @user, :user => @attr
+          flash[:success].should =~ /updated/i
+        end
+      end # changing only password  
+    end # put success
+
+  end # put update
 
 end
