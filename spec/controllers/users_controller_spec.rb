@@ -96,7 +96,7 @@ describe UsersController do
             :content => "delete")
           @users[0..4].each do |user|
             response.should have_selector("a", :href => user_path(user), 
-              :content => "Are you sure you want to delete #{user.name}?")
+              :content => "delete")
           end
         end
 
@@ -492,7 +492,7 @@ describe UsersController do
     describe "as a non-signed-in user" do
       it "should deny access" do
         delete :destroy, :id => @user
-        response.should redirect_to(root_path)
+        response.should redirect_to(signin_path)
       end
     end 
     # as non-signed-in user

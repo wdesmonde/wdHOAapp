@@ -55,14 +55,9 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    @user = User.find(params[:id])
-    if !current_user?(@user)
-      @user.destroy
-      flash[:success] = "#{@user.name} deleted"
-      redirect_to users_path
-    else
-      redirect_to users_path
-    end
+    @user.destroy
+    flash[:success] = "#{@user.name} deleted"
+    redirect_to users_path
   end
 
   private
@@ -76,7 +71,8 @@ class UsersController < ApplicationController
     end
 
     def admin_user
-      redirect_to(root_path) unless current_user.admin?
+      @user = User.find(params[:id])
+      redirect_to(root_path) if !current_user.admin? || current_user?(@user)
     end
 
     def signedin_user
