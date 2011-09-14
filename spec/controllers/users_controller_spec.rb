@@ -50,8 +50,8 @@ describe UsersController do
         it "should not have a delete link for any user" do
           get :index
           @users[0..4].each do |user|
-            response.should_not have_selector("li", 
-              :content => "Are you sure you want to delete #{user.name}")
+            response.should_not have_selector('a', :href => user_path(user),
+              :content => "delete")
           end
         end
 
@@ -88,15 +88,15 @@ describe UsersController do
           end
         end
 
-        it "should have a delete link for all users except self " do
+        it "should have a delete link for all users except self (including
+          other admins" do
           get :index
-          response.should_not have_selector("a", :href => "users/1", 
-            :title => "Delete #{@admin.name}")
-          i = 2
+          @user.toggle!(:admin)
+          response.should_not have_selector("a", :href => user_path(@admin), 
+            :content => "delete")
           @users[0..4].each do |user|
-            response.should have_selector("a", :href => "users/#{i}", 
+            response.should have_selector("a", :href => user_path(user), 
               :content => "Are you sure you want to delete #{user.name}?")
-            i += 1            
           end
         end
 
@@ -120,32 +120,44 @@ describe UsersController do
       @user = Factory(:user)
     end
 
-    it "should be successful" do
-      get :show, :id => @user
-      response.should be_success
-    end
+    describe "signed-in users" do
+      before(:each) do
+        test_sign_in(@user)
+      end
 
-    it "should find the right user" do
-      get :show, :id => @user
-      assigns(:user).should == @user
-    end
+      it "should be successful" do
+        get :show, :id => @user
+        response.should be_success
+      end
 
-    it "should have the right title" do
-      get :show, :id => @user
-      response.should have_selector("title", :content => @user.name)
-    end
+      it "should find the right user" do
+        get :show, :id => @user
+        assigns(:user).should == @user
+      end
 
-    it "should include the user's name" do
-      get :show, :id => @user
-      response.should have_selector("h1", :content => @user.name)
-    end
+      it "should have the right title" do
+        get :show, :id => @user
+        response.should have_selector("title", :content => @user.name)
+      end
 
-    it "should have a profile image" do
-      get :show, :id => @user
-      response.should have_selector("h1>img", :class => "gravatar")
-    end
+      it "should include the user's name" do
+        get :show, :id => @user
+        response.should have_selector("h1", :content => @user.name)
+      end
 
-  end
+      it "should have a profile image" do
+        get :show, :id => @user
+        response.should have_selector("h1>img", :class => "gravatar")
+      end
+    end # for signed-in users
+
+    describe "for non-signed-in users" do
+      it "should deny access to 'show'" do
+        get :show, :id => @user
+        response.should redirect_to(signin_path)
+      end
+    end # not signed in
+  end # show
 
   describe "GET 'new'" do
     it "should be successful" do
@@ -480,9 +492,10 @@ describe UsersController do
     describe "as a non-signed-in user" do
       it "should deny access" do
         delete :destroy, :id => @user
-        response.should redirect_to(signin_path)
+        response.should redirect_to(root_path)
       end
-    end # as non-signed-in user
+    end 
+    # as non-signed-in user
 
     describe "as a non-admin user" do
       it "should protect the page" do
@@ -494,19 +507,25 @@ describe UsersController do
 
     describe "as an admin user" do
       before(:each) do
-        admin = Factory(:user, :email => "adminuser@example.com", 
-          :admin => true)
-        test_sign_in(admin)
+        @admin = Factory(:user, :email => "adminuser@example.com", :admin => true)
+        test_sign_in(@admin)
       end
 
-      it "should destroy the user" do
+      it "should destroy another user" do
         lambda do
           delete :destroy, :id => @user
         end.should change(User, :count).by(-1)
       end
 
+      it "should not allow an admin to destroy themselves" do
+        lambda do
+          delete :destroy, :id => @admin
+        end.should_not change(User, :count)
+      end
+
       it "should redirect to the all users page" do
         delete :destroy, :id => @user
+        flash[:success].should =~ /deleted/i
         response.should redirect_to(users_path)
       end
     end # as admin user
