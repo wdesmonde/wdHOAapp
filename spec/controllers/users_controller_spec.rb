@@ -14,7 +14,9 @@ describe UsersController do
 
     describe "for signed-in users" do
       before(:each) do
-        @user = test_sign_in(Factory(:user))
+        @admin = Factory(:user, :name => "Admin Admin", :email => "admin@admin.net",
+          :admin => true)
+        @user = Factory(:user)
         second = Factory(:user, :name => "Shana Sheni", :email => "shana@doogma.com")
         third = Factory(:user, :name => "Dryl Drei", :email => "dryl@doogma.com")
         @users = [@user, second, third]
@@ -23,32 +25,91 @@ describe UsersController do
         end
       end
 
-      it "should be successful" do
-        get :index
-        response.should be_success
-      end
-
-      it "should have the right title" do
-        get :index
-        response.should have_selector("title", :content => "All Members")
-      end
-
-      it "should have an element for each user" do
-        get :index
-        @users[0..4].each do |user|
-          response.should have_selector("li", :content => user.name)
+      describe "non-admin users" do
+        before(:each) do
+          test_sign_in(@user)
         end
-      end
 
-      it "should paginate users" do
-        get :index
-        response.should have_selector("div.pagination")
-        response.should have_selector("span.disabled", :content => "Previous")
-        response.should have_selector("a", :href => "/users?page=2",
-          :content => "2")
-        response.should have_selector("a", :href => "/users?page=2",
-          :content => "Next")
-      end
+        it "should be successful" do
+          get :index
+          response.should be_success
+        end
+
+        it "should have the right title" do
+          get :index
+          response.should have_selector("title", :content => "All Members")
+        end
+
+        it "should have an element for each user" do
+          get :index
+          @users[0..4].each do |user|
+            response.should have_selector("li", :content => user.name)
+          end
+        end
+
+        it "should not have a delete link for any user" do
+          get :index
+          @users[0..4].each do |user|
+            response.should_not have_selector("li", 
+              :content => "Are you sure you want to delete #{user.name}")
+          end
+        end
+
+        it "should paginate users" do
+          get :index
+          response.should have_selector("div.pagination")
+          response.should have_selector("span.disabled", :content => "Previous")
+          response.should have_selector("a", :href => "/users?page=2",
+            :content => "2")
+          response.should have_selector("a", :href => "/users?page=2",
+            :content => "Next")
+        end
+      end # non-admin
+
+      describe "admin users" do
+        before(:each) do
+          test_sign_in(@admin)
+        end
+
+        it "should be successful" do
+          get :index
+          response.should be_success
+        end
+
+        it "should have the right title" do
+          get :index
+          response.should have_selector("title", :content => "All Members")
+        end
+
+        it "should have an element for each user" do
+          get :index
+          @users[0..4].each do |user|
+            response.should have_selector("li", :content => user.name)
+          end
+        end
+
+        it "should have a delete link for all users except self " do
+          get :index
+          response.should_not have_selector("a", :href => "users/1", 
+            :title => "Delete #{@admin.name}")
+          i = 2
+          @users[0..4].each do |user|
+            response.should have_selector("a", :href => "users/#{i}", 
+              :content => "Are you sure you want to delete #{user.name}?")
+            i += 1            
+          end
+        end
+
+        it "should paginate users" do
+          get :index
+          response.should have_selector("div.pagination")
+          response.should have_selector("span.disabled", :content => "Previous")
+          response.should have_selector("a", :href => "/users?page=2",
+            :content => "2")
+          response.should have_selector("a", :href => "/users?page=2",
+            :content => "Next")
+        end
+      end # admin
     end # signed-in
 
   end # get index
