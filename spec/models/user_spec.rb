@@ -182,4 +182,28 @@ describe User do
     end
   end # admin attribute
 
+  describe "task associations" do
+    before(:each) do
+      @user = User.create(@attr)
+      @task1 = Factory(:task, :user => @user, :created_at => 1.day.ago)
+      @task2 = Factory(:task, :user => @user, :created_at => 1.hour.ago)
+    end
+
+    it "should have a tasks attribute" do
+      @user.should respond_to(:tasks)
+    end
+
+    it "should have the right tasks in the right order" do
+      @user.tasks.should == [@task2, @task1]
+    end
+
+    it "should destroy associated tasks" do
+      @user.destroy
+      [@task1, @task2].each do |task|
+        lambda do
+          Task.find(task)
+        end.should raise_error(ActiveRecord::RecordNotFound)
+      end
+    end
+  end
 end
