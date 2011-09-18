@@ -16,8 +16,8 @@ Factory.define :task do |task|
   twoweeks = (Time.now) + (14 * 24 * 60 * 60)
   task.content "this is a sample task"
   task.due_date twoweeks 
-  task.category "Minor Maintenance"
-  task.priority "Medium"
+  task.category "Other"
+  task.priority "High"
   task.status "New"
   task.association :user
 end

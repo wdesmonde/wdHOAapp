@@ -1,0 +1,15 @@
+<tr>
+  <td class="task">
+    <span class="content"><%= task.content %></span>
+    <span class="extras">
+      <i>Priority:</i> <%= task.priority %> | 
+      <i>Status:  </i><%= task.status %> | 
+      <i>Due Date: </i><%= task.due_date.strftime('%B %e, %Y') %> | 
+      <i>Category: </i><%= task.category %>  
+    </span>
+    <span class="timestamp">
+      Submitted <%= time_ago_in_words(task.created_at) %> ago.
+    </span>
+  </td>
+</tr>
+

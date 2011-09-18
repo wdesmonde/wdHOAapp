@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #ffaa28;
+  background: #e36f1e;
 }
 
 header {
@@ -95,7 +95,7 @@ a.signin_button {
   text-align: center;
   width: 190px;
   color: #fff;
-  background: #ffaa28;
+  background: #e36f1e;
   font-size: 150%;
   font-weight: bold;
   padding: 20px;
@@ -125,7 +125,7 @@ td.sidebar {
   width: 30%;
   padding: 1em;
   vertical-align: top;
-  background: #ffa;
+  background: #e36f1e;
 }
 
 .profile img.gravatar {
@@ -189,4 +189,64 @@ ul.users {
 .users li {
   list-style: none;
 }
+
+/* Tasks */
+
+h1.task {
+  margin.bottom: 0.3em;
+}
+
+table.tasks {
+  margin-top: 1em;
+}
+
+table.tasks tr td.gravatar {
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  width: 50px;
+}
+
+table.tasks tr td.task {
+  border-top: 1px solid #ccc;
+  vertical-align: top:
+  padding-top: 10px;
+}
+
+table.tasks tr td.task span.extras {
+  display: block;
+  font-size: 85%;
+  color: #e36f1e;
+}
+
+table.tasks tr td.task span.timestamp {
+  display: block;
+  font-size: 85%;
+  color: #666;
+}
+
+div.user_info img {
+  padding-right: 0.1em;
+}
+
+div.user_info a {
+  text-decoration: none;
+}
+
+div.user_info span.user_name {
+  position: absolute:
+}
+
+div.user_info span.tasks {
+  font-size: 80%;
+}
+
+form.new_task {
+  margin-bottom: 2em;
+}
+
+form.new_task textarea {
+  height: 4em;
+  margin-bottom: 0;
+}
+
 

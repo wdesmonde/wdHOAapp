@@ -20,6 +20,15 @@ namespace :db do
         :password => password,
         :password_confirmation => password)
     end
+    50.times do
+      User.all(:limit => 6).each do |user|
+        user.tasks.create!(:content => Faker::Lorem.sentence(5),
+          :priority => "High",
+          :status => "New",
+          :category => "Other",
+          :due_date => 3.days.from_now)
+      end
+    end
   end
 end
 

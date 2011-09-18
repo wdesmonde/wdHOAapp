@@ -149,6 +149,16 @@ describe UsersController do
         get :show, :id => @user
         response.should have_selector("h1>img", :class => "gravatar")
       end
+
+      it "should show the tasks the user has submitted" do
+        task1 = Factory(:task, :user => user, :content => "First sample")
+        task2 = Factory(:task, :user => user, :content => "Second sample")
+        get :show, :id => @user
+        response.should have_selector("span.content", :content => task1.content)
+        response.should have_selector("span.content", :content => task2.content)
+      end
+
+
     end # for signed-in users
 
     describe "for non-signed-in users" do
