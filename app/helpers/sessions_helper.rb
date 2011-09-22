@@ -40,7 +40,12 @@ module SessionsHelper
     redirect_to signin_path, :notice => "Please sign in to access this page."
   end
 
-  # redirects to the requested URL if it exists
+  def admin_user
+   @user = User.find(params[:id])
+   redirect_to(root_path) if !current_user.admin? || current_user?(@user) 
+  end
+
+  #  to the requested URL if it exists
   #   or a default URL otherwise
   def redirect_back_or(default)
     redirect_to(session[:return_to] || default)

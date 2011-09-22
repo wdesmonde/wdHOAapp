@@ -1,5 +1,6 @@
 class TasksController < ApplicationController
   before_filter :authenticate
+  #before_filter :authorized_user, :only => :destroy
 
   def new
     @title = "Submit New Request"
@@ -10,7 +11,7 @@ class TasksController < ApplicationController
     @task = current_user.tasks.build(params[:task])
     if @task.save
       flash[:success] = "Request Submitted"
-      redirect_to 'pages/tasks'
+      redirect_to tasks_path
     else
       render 'new'
     end
@@ -22,6 +23,10 @@ class TasksController < ApplicationController
   end
 
   def destroy
+    @task = Task.find(params[:id])
+    @task.destroy
+    flash[:success] = "Request Deleted"
+    redirect_to tasks_path
   end
 
   def index
@@ -29,5 +34,8 @@ class TasksController < ApplicationController
     @title = "All Requests"
   end
 
+  private
+   def authorized_user
+   end
 
 end

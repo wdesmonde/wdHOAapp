@@ -68,10 +68,13 @@ class UsersController < ApplicationController
       redirect_to(root_path) unless current_user?(@user)
     end
 
+=begin
+    moved to sessions helper
     def admin_user
       @user = User.find(params[:id])
       redirect_to(root_path) if !current_user.admin? || current_user?(@user)
     end
+=end
 
     def signedin_user
       redirect_to(root_path) if signed_in?

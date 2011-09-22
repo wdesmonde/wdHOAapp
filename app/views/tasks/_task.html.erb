@@ -14,5 +14,13 @@
       Submitted <%= time_ago_in_words(task.created_at) %> ago.
     </span>
   </td>
+  <% if current_user.admin? %>
+    <td>
+      <%= link_to "delete", task, :method => :delete,
+          :confirm => "Are you sure you want to delete this request?  It would
+                       be better if you commented on it.",
+          :title => "Delete this request?" %>
+    </td>
+  <% end %>
 </tr>
 
