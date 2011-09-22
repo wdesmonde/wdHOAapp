@@ -2,6 +2,7 @@ class Task < ActiveRecord::Base
   attr_accessible :content, :priority, :status, :category, :due_date
 
   belongs_to :user
+  has_many :comments
 
   
   def due_date_cannot_be_in_past
