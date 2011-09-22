@@ -1,6 +1,9 @@
 <tr>
   <td class="task">
-    <span class="content"><%= task.content %></span>
+
+    <span class="content">
+    <%= link_to task.content, task %>
+</span>
     <span class="extras">
       <i>Priority:</i> <%= task.priority %> | 
       <i>Status:  </i><%= task.status %> | 

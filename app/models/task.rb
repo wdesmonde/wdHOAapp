@@ -15,10 +15,10 @@ class Task < ActiveRecord::Base
   validates :priority, :presence => true, 
     :inclusion => { :in => %w(Emergency High Medium Low) }
   validates :status, :presence => true,
-    :inclusion => { :in => %w(New Approved "In Progress" Completed Closed) }
+    :inclusion => { :in => (["New", "Approved", "In Progress", "Completed", "Closed"]) }
   validates :category, :presence => true,
     :inclusion => { :in => 
-      %w(Other "Major Maintenance" "Minor Maintenance" Administration Landscaping) }
+      (["Other", "Major Maintenance", "Minor Maintenance", "Administration", "Landscaping"]) }
   validates :due_date, :presence => true
   validate  :due_date_cannot_be_in_past
 

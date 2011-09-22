@@ -1,0 +1,35 @@
+<%= form_for(@task) do |f| %>
+  <%= render 'shared/error_messages', :object => f.object %>
+  <table class="table">
+    <tr>
+    <td>
+      <div class="field">
+        <%= f.label :content, "Describe Your Request" %><br />
+        <%= f.text_area :content %>
+      </div>
+    </td>
+    <td>
+      <div class="field">
+      <%= f.label :priority %>
+      <%= f.text_field :priority %><br />
+      </div>
+      <div class="field">
+        <%= f.label :due_date, "When do you want this done by?" %><br />
+        <%= f.date_select(:due_date, :prompt => {
+          :day => "Day", :month => "Month", :year => "Year" } ) %>
+      </div>
+      <div class="field">
+      <%= f.label :category %>
+      <%= f.text_field :category %><br />
+      </div>
+      <div class="field">
+        <%= f.hidden_field :status, :value => "New" %>
+      </div>
+    </td> 
+   </tr>
+  </table>
+  <div class="actions">
+    <%= f.submit "Submit Request" %>
+  </div>
+<% end %>
+

@@ -3,8 +3,12 @@ require 'spec_helper'
 describe TasksController do
   render_views
 
-  describe "access control" do
-    describe "not signed in" do
+  describe "deny access to anyone not signed in" do
+
+      it "should deny access to 'new'" do
+        get 'new'
+        response.should redirect_to(signin_path)
+      end
 
       it "should deny access to 'create'" do
         post :create
@@ -16,12 +20,37 @@ describe TasksController do
         response.should redirect_to(signin_path)
       end
  
-      it "should deny access to 'destroy'" do
-        delete :destroy, :id => 1
-        response.should redirect_to(signin_path)
+      describe "should deny access to 'destroy' to anyone execpt admins" do
+
+        it "should deny access to 'destroy' for non-signed-in users" do
+          delete :destroy, :id => 1
+          response.should redirect_to(signin_path)
+        end
+
+        it "should deny access to 'destroy' for non-admin users" do
+          #TODO
+        end
+
       end
      
+  end
+
+  describe "GET 'new'" do
+
+    before(:each) do
+      @user = test_sign_in(Factory(:user))
     end
+
+    it "should be successful" do
+      get :new
+      response.should be_success
+    end
+
+    it "should have the right title" do
+      get :new
+      response.should have_selector('title', :content => "Submit New Request")
+    end
+
   end
 
   describe "POST 'create'" do
@@ -82,5 +111,17 @@ describe TasksController do
       end
 
     end
+  end
+
+  describe "GET 'index'" do
+    # TODO
+    # access control is covered in the access control
+    #   part above.  Covers successful cases here.
+  end
+
+  describe "DELETE 'destroy'" do
+    # TODO
+    # access control is covered in the access control
+    #   part above.  Covers successful cases here.
   end
 end
