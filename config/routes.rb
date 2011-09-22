@@ -4,6 +4,9 @@ WdHOAapp::Application.routes.draw do
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
   resources :tasks, :only => [:new, :create, :index, :show, :destroy]
+  resources :tasks do
+    resources :comments
+  end
 
 
   match '/signup', :to => 'users#new'
