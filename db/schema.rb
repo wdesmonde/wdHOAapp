@@ -10,21 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110917172424) do
-
-  create_table "tasks", :force => true do |t|
-    t.string   "content"
-    t.integer  "user_id"
-    t.datetime "due_date"
-    t.string   "category"
-    t.string   "priority"
-    t.string   "status"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "tasks", ["due_date", "category", "priority", "status"], :name => "index_tasks_on_due_date_and_category_and_priority_and_status"
-  add_index "tasks", ["user_id", "created_at"], :name => "index_tasks_on_user_id_and_created_at"
+ActiveRecord::Schema.define(:version => 20110913201133) do
 
   create_table "users", :force => true do |t|
     t.string   "name"
