@@ -40,4 +40,36 @@ describe "Tasks" do
       end
     end
   end
+
+  describe "show a single task with a varying number of comments" do
+
+    before(:each) do
+      @user1 = Factory(:user, :email => "user1@doogma.com")
+      @user2 = Factory(:user, :email => "user2@doogma.com")
+      @admin = Factory(:user, :email => "admintest@mivhan.net", :admin => true)
+      @task1 = Factory(:task, :user_id => @user1.id)
+      @content = "the place is sad where we are"
+      @priority = "High"
+      @status = "New"
+      @category = "Landscaping"
+      @due_date = (Time.now) + 100000
+    end
+
+    it "should show no comments if there are no comments" do
+      integration_sign_in(@user1)
+      click_link "View all tasks"
+    end
+    
+    it "should show one comment if there is a single comment" do
+    end
+
+    it "show two comments" do
+    end
+
+    it "has 20 comments" do
+    end
+
+    it "has one comment removed, then add another one" do
+    end
+  end
 end

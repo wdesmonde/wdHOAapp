@@ -2,13 +2,14 @@
   <td class="task">
 
     <span class="content">
-    <%= link_to task.content, task %>
-</span>
+      <%= link_to task.content, task %>
+    </span>
+    <br />
     <span class="extras">
-      <i>Priority:</i> <%= task.priority %> | 
-      <i>Status:  </i><%= task.status %> | 
-      <i>Due Date: </i><%= task.due_date.strftime('%B %e, %Y') %> | 
-      <i>Category: </i><%= task.category %>  
+      <i>Priority:</i> <%= task.priority %>  |
+      <i>Status:  </i><%= task.status %> |
+      <i>Category: </i><%= task.category %> <br />  
+      <i>Due Date: </i><%= task.due_date.strftime('%B %e, %Y') %>  
     </span>
     <span class="timestamp">
       Submitted <%= time_ago_in_words(task.created_at) %> ago.
@@ -23,4 +24,3 @@
     </td>
   <% end %>
 </tr>
-
