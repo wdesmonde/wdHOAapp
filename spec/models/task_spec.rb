@@ -59,8 +59,8 @@ describe Task do
       @user.tasks.build(@attr).should be_valid
     end
   
-    it "should only accept valid stati" do
-      stati = %w(New Approved "In Progress" Completed Closed)
+    it "should accept valid stati" do
+      stati = %w("New" "Approved" "In Progress" "Completed" "Closed")
       stati.each do |stati|
         valid_status_task = @user.tasks.build(@attr.merge(:status => stati))
         valid_status_task.should be_valid
