@@ -3,9 +3,8 @@ WdHOAapp::Application.routes.draw do
 
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
-  resources :tasks, :only => [:new, :create, :index, :show, :destroy]
-  resources :tasks do
-    resources :comments
+  resources :tasks, :only => [:new, :create, :index, :show, :destroy] do
+    resources :comments, :only => [:create, :destroy]
   end
 
 

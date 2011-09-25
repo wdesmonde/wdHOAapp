@@ -151,8 +151,8 @@ describe UsersController do
       end
 
       it "should show the tasks the user has submitted" do
-        task1 = Factory(:task, :user => user, :content => "First sample")
-        task2 = Factory(:task, :user => user, :content => "Second sample")
+        task1 = Factory(:task, :user => @user, :content => "First sample")
+        task2 = Factory(:task, :user => @user, :content => "Second sample")
         get :show, :id => @user
         response.should have_selector("span.content", :content => task1.content)
         response.should have_selector("span.content", :content => task2.content)
