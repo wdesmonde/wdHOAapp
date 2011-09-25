@@ -30,9 +30,7 @@ describe CommentsController do
       it "should create a comment on user's own task" do
         test_sign_in(@user1)
         assigns(:user.id) == @user1.id
-        # get task_path(:id => @task2_user.id)
         assigns(:task.id) == @task2_user.id
-        # get 'show', :id => @task2_user.id
         lambda do
           post :create, :comment => @attr_comment2_t2
         end.should change(Comment, :count).by(1)
