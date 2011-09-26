@@ -20,6 +20,8 @@ class TasksController < ApplicationController
   def show
     @title = "Comment on a WWCA Request"
     @task = Task.find(params[:id])
+    @comments = Comment.where(:task_id => @task[:id])
+    #@new_comment = Comment.new
   end
 
   def destroy

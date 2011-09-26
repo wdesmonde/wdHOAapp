@@ -1,0 +1,12 @@
+  <h4>Comments:</h4>
+<tr><td>
+    <% for comment in @comments %>
+      <span class="content">
+        <%= comment.content %><br />
+      </span>
+      <span class="timestamp">
+        Posted <%= time_ago_in_words(comment.created_at) %> ago
+        by <%= User.find(comment.user_id).name %>.
+      </span><br /><br />
+    <% end %>
+</td></tr>

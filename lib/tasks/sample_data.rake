@@ -29,6 +29,12 @@ namespace :db do
           :due_date => 3.days.from_now)
       end
     end
+    50.times do
+      Task.all(:limit => 2).each do |task|
+        task.comments.create!(:content => Faker::Lorem.sentence(1),
+          :user_id => task.user_id)
+      end
+    end
   end
 end
 

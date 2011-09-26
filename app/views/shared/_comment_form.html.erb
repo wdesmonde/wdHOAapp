@@ -1,6 +1,6 @@
-<tr>
   <h4>Add a comment:</h4>
-  <%= form_for(:comment, @comment) do |f| %>
+<tr>
+  <%= form_for @new_comment do |f| %>
     <%= render 'shared/error_messages', :object => f.object %>
     <div class="field">
       <%= f.text_field :content %> 
