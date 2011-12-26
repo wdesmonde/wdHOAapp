@@ -15,7 +15,8 @@ class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation
 
   has_many :tasks, :dependent => :destroy
-  has_many :comments
+  # has_many :comments
+
   # names have to consist of two or three alphabetical words
   #   first name and last name must begin with an uppercase letter
   #   can have a two-part name (e.g., von)

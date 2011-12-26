@@ -1,7 +1,7 @@
 <p class="tasks"><%= render @task %></p>
 <% if @comments.exists? %>
   <%= render 'shared/comments' %>
-  <!-- %= render 'shared/comment_form' % -->
 <% end %>
+  <%= render 'shared/comment_form' %>
 
 

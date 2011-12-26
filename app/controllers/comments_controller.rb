@@ -2,6 +2,10 @@ class CommentsController < ApplicationController
   before_filter :authenticate
   #before_filter :authorized_user, :only => :destroy
 
+  def new
+    @new_comment = Comment.new
+  end
+
   def create
     # @task = Task.find(params[:id])
     # @comment = @task.comments.create!(:content => params[:comment], 

@@ -1,8 +1,8 @@
 class Comment < ActiveRecord::Base
-  attr_accessible :content, :user_id
+  attr_accessible :content
 
   belongs_to :task
-  has_one :user
+#  has_one :user
 
   validates :content, :presence => true, :length => { :maximum => 500 }
   validates :task, :presence => true
