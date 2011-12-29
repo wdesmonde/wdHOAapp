@@ -21,7 +21,7 @@ class TasksController < ApplicationController
     @title = "Comment on a WWCA Request"
     @task = Task.find(params[:id])
     @comments = Comment.where(:task_id => @task[:id])
-    @new_comment = Comment.new
+    #@new_comment = new_comment_meth
   end
 
   def destroy
@@ -36,8 +36,15 @@ class TasksController < ApplicationController
     @title = "All Requests"
   end
 
+  def comment
+    @task.comments.create(params[:comment])
+    #Task.find(params[:id]).comments.create(params[:comment])
+    flash[:notice] = "Added your comment"
+    #redirect_to :action => "show", :id => params[:id]
+  end
+
   private
-   def authorized_user
-   end
+    def authorized_user
+    end
 
 end

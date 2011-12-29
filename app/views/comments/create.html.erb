@@ -1,0 +1,7 @@
+<p class="tasks"><%= render @comments %></p>
+<% if @comments.exists? %>
+  <%= render 'shared/comments' %>
+<% end %>
+  <%= render 'shared/comment_form' %>
+
+

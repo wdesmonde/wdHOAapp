@@ -1,12 +1,14 @@
 <h4>Add a comment:</h4>
+<table class="table">
 <tr>
-  <%= form_for(@new_comment) do |f| %>
-    <%= render 'shared/error_messages', :object => f.object %>
+  <%= form_for([@task, @task.comments.build]) do |fc| %>
+    <%= render 'shared/error_messages', :object => fc.object %>
     <div class="field">
-      <%= f.text_field :content %> 
+      <%= fc.text_area :content %> 
     </div>
     <div class="actions">
-      <%= f.submit "Submit Comment" %>
+      <%= fc.submit "Submit Comment" %>
     </div>
   <% end %>
 </tr>
+</table>
