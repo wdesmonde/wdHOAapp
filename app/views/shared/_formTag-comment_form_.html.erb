@@ -1,0 +1,14 @@
+<h4>Add a comment:</h4>
+<table class="table">
+<tr>
+  <%= form_tag :action => 'new_comment' do |fc| %>
+    <%= render 'shared/error_messages', :object => fc.object %>
+    <div class="field">
+      <%= fc.text_area :content %> 
+    </div>
+    <div class="actions">
+      <%= fc.submit "Submit Comment" %>
+    </div>
+  <% end %>
+</tr>
+</table>

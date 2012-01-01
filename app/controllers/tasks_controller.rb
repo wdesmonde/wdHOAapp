@@ -21,7 +21,12 @@ class TasksController < ApplicationController
     @title = "Comment on a WWCA Request"
     @task = Task.find(params[:id])
     @comments = Comment.where(:task_id => @task[:id])
-    #@new_comment = new_comment_meth
+    @comment_content = params[:content]
+    if !@comment_content.blank?
+    @new_comment = Comment.create(:task_id => @task[:id],
+         :user_id => current_user.id,
+         :content => @comment_content)
+    end
   end
 
   def destroy
@@ -36,8 +41,12 @@ class TasksController < ApplicationController
     @title = "All Requests"
   end
 
-  def comment
-    @task.comments.create(params[:comment])
+  def new_comment
+    @content = params[:content]
+    @new_comment = Comment.create(:task_id => @task[:id],
+         :user_id => current_user.id,
+         :content => @content)
+    # @task.comments.create(params[:comment])
     #Task.find(params[:id]).comments.create(params[:comment])
     flash[:notice] = "Added your comment"
     #redirect_to :action => "show", :id => params[:id]

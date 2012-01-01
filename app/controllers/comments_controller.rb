@@ -12,7 +12,7 @@ class CommentsController < ApplicationController
       # :user_id => current_user.id)
     # @comment = @task.comments.build(params[:comment],
     @comment = @task.comments.create(params[:comment])
-        # :task_id => (params[:task[:id]]),
+         # :task_id => @task[:id],
         #:task_id => @task,
         #:user_id => current_user.id) 
     if @comment.save
