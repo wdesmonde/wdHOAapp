@@ -22,10 +22,17 @@ class TasksController < ApplicationController
     @task = Task.find(params[:id])
     @comments = Comment.where(:task_id => @task[:id])
     @comment_content = params[:content]
+=begin
     if !@comment_content.blank?
-    @new_comment = Comment.create(:task_id => @task[:id],
+       @new_comment = Comment.create(:task_id => @task[:id],
          :user_id => current_user.id,
          :content => @comment_content)
+    end
+=end
+    if !@comment_content.blank?
+      @comment = @task.comment.build(params[:comment])
+      @comment.user_id = current_user.id
+      @comment.save
     end
   end
 
@@ -41,6 +48,7 @@ class TasksController < ApplicationController
     @title = "All Requests"
   end
 
+=begin
   def new_comment
     @content = params[:content]
     @new_comment = Comment.create(:task_id => @task[:id],
@@ -51,6 +59,7 @@ class TasksController < ApplicationController
     flash[:notice] = "Added your comment"
     #redirect_to :action => "show", :id => params[:id]
   end
+=end
 
   private
     def authorized_user

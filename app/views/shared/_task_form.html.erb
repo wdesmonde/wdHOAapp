@@ -17,8 +17,11 @@
       </div>
       <div class="field">
         <%= f.label :due_date, "When do you want this done by?" %><br />
-        <%= f.date_select(:due_date, :start_year => 2012, :prompt => {
-          :day => "Day", :month => "Month", :year => "Year" } ) %>
+        <%= f.date_select(:due_date, :start_year => 2012
+          #, :prompt => {
+          #:day => "Day", :month => "Month", :year => "Year" },
+          #:default => 30.days.from_now 
+           ) %>
       </div>
       <div class="field">
       <%= f.label :category %>

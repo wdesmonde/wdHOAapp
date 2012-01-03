@@ -7,11 +7,17 @@ class CommentsController < ApplicationController
 #  end
 
   def create
-    @task = Task.find(params[:task_id])
+    #@task = Task.find(params[:task_id])
+    @comment = @task.comment.build(params([:comment])
+    @comment.save
+    #@comment = Comment.new
+    #@comment.content = (params[:content])
+    @comment.user_id = current_user.id 
+    #@task = Task.find(params[:task_id])
     # @comment = @task.comments.create!(:content => params[:comment], 
       # :user_id => current_user.id)
     # @comment = @task.comments.build(params[:comment],
-    @comment = @task.comments.create(params[:comment])
+    #@comment = @task.comments.create(params[:comment])
          # :task_id => @task[:id],
         #:task_id => @task,
         #:user_id => current_user.id) 
